@@ -1,0 +1,46 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights (large binary files — do not commit)
+models/voice_emotion/*
+models/text_emotion/*
+models/h1/*.pt
+models/h1/*.pkl
+models/h1/wav2vec2_finetuned/
+models/h1/distilroberta_finetuned/
+!models/voice_emotion/.gitkeep
+!models/text_emotion/.gitkeep
+
+# Data (participant data must never be committed to git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.db
+*.sqlite3
+
+# Training datasets (RAVDESS/TESS — download locally, do not commit)
+training/data/*
+!training/data/.gitkeep
+
+# Chroma local persistence
+chroma_db/
+.chroma/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Run logs (regenerate every run, noisy diffs)
+reports/logs/*.log
+
+# Jupyter
+.ipynb_checkpoints/

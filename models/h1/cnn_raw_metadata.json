@@ -1,0 +1,48 @@
+{
+  "model_name": "cnn_raw",
+  "architecture": "RawAudioCNN (5-block Conv1D, channels 64-128-256-256-128, global average pooling)",
+  "literature_basis": "Kilimci, Bayraktar & K\u00fc\u00e7\u00fckmanisa (2025), Multimedia Tools and Applications",
+  "input_shape": [
+    1,
+    40000
+  ],
+  "num_classes": 6,
+  "label_to_idx": {
+    "happy": 0,
+    "sad": 1,
+    "angry": 2,
+    "fear": 3,
+    "neutral": 4,
+    "surprise": 5
+  },
+  "hyperparameters": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.25,
+    "max_epochs": 100,
+    "early_stopping_patience": 5,
+    "lr_scheduler_patience": 3
+  },
+  "training": {
+    "best_epoch": 11,
+    "epochs_run": 16,
+    "best_val_loss": 0.5282746665454321,
+    "training_duration_seconds": 227.7,
+    "device": "cuda",
+    "environment": "Google Colab"
+  },
+  "test_metrics": {
+    "accuracy": 0.8034398034398035,
+    "precision_macro": 0.8241990722597551,
+    "recall_macro": 0.8007136896025785,
+    "f1_macro": 0.8012151311372332,
+    "precision_weighted": 0.8273202599534674,
+    "recall_weighted": 0.8034398034398035,
+    "f1_weighted": 0.8045705796802107
+  },
+  "total_parameters": 716422,
+  "git_commit": "6fc0314f2e2a2a4894ee53662ff03c3810fe1f32",
+  "trained_at_utc": "2026-08-29T08:13:48.614251+00:00",
+  "model_path": "models/h1/cnn_raw.pt"
+}

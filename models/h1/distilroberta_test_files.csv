@@ -1,0 +1,408 @@
+original_path,label,transcript,distilroberta_prediction
+training/data/savee_raw/SAVEE/JE_a09.wav,angry,Right now may not be the best time for business mergers.,angry
+training/data/ravdess_raw/Actor_21/03-01-04-01-02-01-21.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_keen_ps.wav,surprise,Say the word keen.,happy
+training/data/ravdess_raw/Actor_08/03-01-02-01-01-01-08.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_death_ps.wav,surprise,Say the word death.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_nice_sad.wav,sad,Say the word nice.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_calm_neutral.wav,neutral,Say the word calm.,happy
+training/data/ravdess_raw/Actor_15/03-01-08-02-01-01-15.wav,surprise,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/JE_a02.wav,angry,Don't ask me to carry an oily rag like that!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_goose_ps.wav,surprise,Say the word goose.,happy
+training/data/ravdess_raw/Actor_07/03-01-06-02-02-02-07.wav,fear,Dogs are sitting by the door!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_far_happy.wav,happy,Say the word far.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_vine_angry.wav,angry,Say the word thine.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_which_neutral.wav,neutral,"Say the word, witch.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_check_ps.wav,surprise,Say the word check?,surprise
+training/data/savee_raw/SAVEE/JK_sa01.wav,sad,"""'She had your dark suit in greasy wash-water all year.'",neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_keen_fear.wav,fear,Say the word keen.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_mob_neutral.wav,neutral,Say the word mob.,happy
+training/data/savee_raw/SAVEE/JK_a08.wav,angry,Withdraw all phony accusations at once.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_cab_neutral.wav,neutral,Say the word cab.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_goose_angry.wav,angry,Say the word goose.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_kill_angry.wav,angry,Say the word killed.,happy
+training/data/savee_raw/SAVEE/JE_n05.wav,neutral,calcium makes bones and teeth strong,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_pad_angry.wav,angry,Say the word pad.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_ring_fear.wav,fear,Say the word ring.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_yearn_happy.wav,happy,Say the word yearn.,happy
+training/data/ravdess_raw/Actor_03/03-01-02-02-01-01-03.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_soap_ps.wav,surprise,Say the word soap.,happy
+training/data/ravdess_raw/Actor_15/03-01-02-01-02-01-15.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_02/03-01-05-01-01-01-02.wav,angry,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_live_happy.wav,happy,Say the word live.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_ripe_fear.wav,fear,Say the word ripe.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_whip_sad.wav,sad,Say the word whip.,happy
+training/data/ravdess_raw/Actor_03/03-01-04-02-02-02-03.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_judge_fear.wav,fear,"Say the word, judge.",sad
+training/data/ravdess_raw/Actor_04/03-01-03-01-01-02-04.wav,happy,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/DC_su12.wav,surprise,"properly used, the present book is an excellent instrument of enlightenment.",surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_date_sad.wav,sad,Say the word date.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_dime_fear.wav,fear,Say the word dime.,happy
+training/data/ravdess_raw/Actor_21/03-01-02-01-01-01-21.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_learn_angry.wav,angry,Say the word learn.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_vine_sad.wav,sad,Say the word vine.,happy
+training/data/ravdess_raw/Actor_06/03-01-08-02-02-01-06.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_16/03-01-08-02-01-01-16.wav,surprise,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_02/03-01-04-02-01-02-02.wav,sad,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_kill_happy.wav,happy,Say the word kill.,happy
+training/data/ravdess_raw/Actor_13/03-01-02-01-02-01-13.wav,neutral,The dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_should_neutral.wav,neutral,say the word should.,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_when_angry.wav,angry,Say the word when.,angry
+training/data/ravdess_raw/Actor_14/03-01-04-01-02-02-14.wav,sad,Dogs are sitting by the door.,neutral
+training/data/savee_raw/SAVEE/KL_a13.wav,angry,A lot of people will roam the streets in costumes and masks and having a ball.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_loaf_fear.wav,fear,Say the word loaf.,happy
+training/data/savee_raw/SAVEE/DC_su04.wav,surprise,The carpet cleaners shampooed our oriental rug.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_rough_ps.wav,surprise,Say the word rough.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_shirt_happy.wav,happy,Say the word shirt.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_name_sad.wav,sad,Say the word name.,happy
+training/data/ravdess_raw/Actor_19/03-01-01-01-01-01-19.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_met_neutral.wav,neutral,Say the word met.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_fat_ps.wav,surprise,Say the word fat.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_late_ps.wav,surprise,Say the word late.,angry
+training/data/ravdess_raw/Actor_13/03-01-08-01-02-01-13.wav,surprise,Dogs are sitting by the door?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_rain_fear.wav,fear,"Say the word, Rainn.",fear
+training/data/ravdess_raw/Actor_06/03-01-04-01-01-01-06.wav,sad,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_hall_neutral.wav,neutral,Say the word hall.,happy
+training/data/ravdess_raw/Actor_22/03-01-03-02-02-02-22.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_yes_fear.wav,fear,Say the word yes.,happy
+training/data/ravdess_raw/Actor_05/03-01-04-02-02-01-05.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_room_ps.wav,surprise,Say the word room.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_get_ps.wav,surprise,Say the word get.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_chief_happy.wav,happy,"Say the word, chief.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_sure_sad.wav,sad,Say the word sure.,angry
+training/data/ravdess_raw/Actor_15/03-01-08-02-01-02-15.wav,surprise,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_walk_happy.wav,happy,Say the word walk.,happy
+training/data/ravdess_raw/Actor_19/03-01-03-01-02-02-19.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_read_angry.wav,angry,"Say the word, read.",neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_came_sad.wav,sad,Say the word came.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_haze_neutral.wav,neutral,"Say the word, haze.",angry
+training/data/savee_raw/SAVEE/JE_su15.wav,surprise,He further proposed grants of an unspecified sum for experimental hospitals.,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_bath_sad.wav,sad,Say the word bath.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_cause_ps.wav,surprise,Say the word cause?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_rag_neutral.wav,neutral,say the word rag.,surprise
+training/data/savee_raw/SAVEE/KL_f01.wav,fear,She had your dark suit and greasy wash water all year.,neutral
+training/data/ravdess_raw/Actor_11/03-01-03-01-01-01-11.wav,happy,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_03/03-01-05-01-01-02-03.wav,angry,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_14/03-01-05-01-02-02-14.wav,angry,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_chain_happy.wav,happy,Say the word change.,happy
+training/data/savee_raw/SAVEE/DC_sa03.wav,sad,Will you tell me why?,happy
+training/data/ravdess_raw/Actor_24/03-01-02-01-01-02-24.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_seize_sad.wav,sad,Say the word cease.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_base_ps.wav,surprise,Say the word base?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_neat_fear.wav,fear,Say the word neat.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_hole_sad.wav,sad,Say the word hole.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_note_happy.wav,happy,Say the word note.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_pad_neutral.wav,neutral,"Say the word, Pat.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_cab_happy.wav,happy,Say the word cab.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_mill_angry.wav,angry,Say the word mill.,happy
+training/data/ravdess_raw/Actor_06/03-01-06-01-01-01-06.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_near_fear.wav,fear,"Say the word, Nier.",fear
+training/data/ravdess_raw/Actor_12/03-01-08-01-02-01-12.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_17/03-01-06-02-01-02-17.wav,fear,Kids are talking by the door!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_bath_fear.wav,fear,"""'Say the word bath?'",surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_tip_sad.wav,sad,Say the word tip.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_thumb_ps.wav,surprise,Say the word thumb.,happy
+training/data/ravdess_raw/Actor_24/03-01-03-02-01-02-24.wav,happy,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_pearl_angry.wav,angry,Say the word pearl.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_keen_neutral.wav,neutral,Say the word keen.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_sheep_happy.wav,happy,Say the word sheep.,happy
+training/data/ravdess_raw/Actor_04/03-01-06-02-01-02-04.wav,fear,Kids are talking by the door!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_bone_angry.wav,angry,Say the word bone.,happy
+training/data/savee_raw/SAVEE/JE_sa13.wav,sad,but the ships are very slow now and we don't get so many sailors anymore.,sad
+training/data/savee_raw/SAVEE/JE_n01.wav,neutral,She had your dark suit and greasy wash water all year.,neutral
+training/data/ravdess_raw/Actor_13/03-01-01-01-01-01-13.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_pick_sad.wav,sad,Say the word PICK.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_long_sad.wav,sad,Say the word long.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_nice_ps.wav,surprise,Say the word nice.,happy
+training/data/ravdess_raw/Actor_01/03-01-08-02-01-01-01.wav,surprise,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_16/03-01-02-01-01-01-16.wav,neutral,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/DC_h07.wav,happy,Project development was proceeding too slowly.,happy
+training/data/savee_raw/SAVEE/KL_n08.wav,neutral,Greg buys fresh milk each weekday morning.,neutral
+training/data/ravdess_raw/Actor_14/03-01-01-01-01-02-14.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_yearn_fear.wav,fear,"Say the word, Yearn.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_thumb_sad.wav,sad,"Say the word, thumb.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_mode_ps.wav,surprise,Say the word mode.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_puff_angry.wav,angry,Say the word puff.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_shirt_sad.wav,sad,"Say the word, shirk.",sad
+training/data/ravdess_raw/Actor_19/03-01-04-02-02-02-19.wav,sad,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_19/03-01-03-01-01-01-19.wav,happy,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_keep_ps.wav,surprise,Say the word keep.,angry
+training/data/ravdess_raw/Actor_20/03-01-06-02-01-01-20.wav,fear,Kids are talking by the door!,fear
+training/data/savee_raw/SAVEE/KL_h06.wav,happy,That noise problem grows more annoying each day.,happy
+training/data/ravdess_raw/Actor_24/03-01-05-02-01-02-24.wav,angry,Kids are talking by the door!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_knock_angry.wav,angry,Say the word knock.,angry
+training/data/ravdess_raw/Actor_19/03-01-06-01-01-01-19.wav,fear,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_08/03-01-04-01-02-02-08.wav,sad,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_17/03-01-01-01-02-02-17.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_thought_fear.wav,fear,Say the word thought.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_tire_happy.wav,happy,Say the word tire.,happy
+training/data/ravdess_raw/Actor_24/03-01-02-02-01-02-24.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_deep_neutral.wav,neutral,Say the word deeply.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_tool_neutral.wav,neutral,"Say the word, tool.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_wheat_happy.wav,happy,Say the word wheat.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_pick_fear.wav,fear,Say the word pick.,happy
+training/data/ravdess_raw/Actor_01/03-01-08-02-02-02-01.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_cab_ps.wav,surprise,Say the word cab?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_south_ps.wav,surprise,Say the word south.,happy
+training/data/ravdess_raw/Actor_08/03-01-05-01-02-01-08.wav,angry,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_24/03-01-04-01-02-01-24.wav,sad,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_03/03-01-02-02-01-02-03.wav,neutral,kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_hire_fear.wav,fear,Say the word higher.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_learn_sad.wav,sad,"Say the word, learn.",angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_burn_happy.wav,happy,Say the word BURN.,angry
+training/data/ravdess_raw/Actor_05/03-01-03-02-02-01-05.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_rot_fear.wav,fear,Say the word rot.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_rush_sad.wav,sad,Say the word rush.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_dime_ps.wav,surprise,Say the word dime.,happy
+training/data/ravdess_raw/Actor_19/03-01-05-02-02-02-19.wav,angry,Dogs are sitting by the door!,fear
+training/data/ravdess_raw/Actor_24/03-01-02-02-01-01-24.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_should_happy.wav,happy,Say the word should.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_wheat_angry.wav,angry,Say the word wheat.,happy
+training/data/ravdess_raw/Actor_13/03-01-08-01-01-02-13.wav,surprise,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_10/03-01-02-01-01-01-10.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_reach_angry.wav,angry,Say the word reach.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_tip_ps.wav,surprise,Say the word tip.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_pick_neutral.wav,neutral,"Say the word, pick.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_mode_happy.wav,happy,Say the word mode.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_gap_happy.wav,happy,Say the word gap.,happy
+training/data/ravdess_raw/Actor_20/03-01-01-01-02-02-20.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_chat_fear.wav,fear,"Say the word, chat.",sad
+training/data/ravdess_raw/Actor_16/03-01-04-02-01-02-16.wav,sad,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_wash_happy.wav,happy,Say the word wash.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_hurl_fear.wav,fear,Say the word hurl.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_gas_sad.wav,sad,Say the word gas.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_five_neutral.wav,neutral,Say the word five.,angry
+training/data/ravdess_raw/Actor_21/03-01-06-01-01-01-21.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_mill_sad.wav,sad,"Say the word, Mill.",fear
+training/data/ravdess_raw/Actor_09/03-01-03-02-01-01-09.wav,happy,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_22/03-01-08-02-01-02-22.wav,surprise,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_04/03-01-04-02-02-01-04.wav,sad,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_15/03-01-06-02-01-02-15.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_which_ps.wav,surprise,Say the word witch.,happy
+training/data/ravdess_raw/Actor_02/03-01-03-01-02-02-02.wav,happy,Dogs are sitting by the door.,neutral
+training/data/savee_raw/SAVEE/JE_f08.wav,fear,Special task forces rescue hostages from kidnappers.,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_make_neutral.wav,neutral,Say the word make.,happy
+training/data/ravdess_raw/Actor_03/03-01-08-02-01-01-03.wav,surprise,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_23/03-01-03-01-02-01-23.wav,happy,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_08/03-01-05-01-01-02-08.wav,angry,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_22/03-01-05-02-01-01-22.wav,angry,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_date_angry.wav,angry,Say the word date.,angry
+training/data/ravdess_raw/Actor_15/03-01-02-02-02-01-15.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_tell_angry.wav,angry,Say the word tell.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_far_neutral.wav,neutral,Say the word far.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_jail_neutral.wav,neutral,Say the word jail.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_lid_sad.wav,sad,"Say the word, Lyd.",fear
+training/data/ravdess_raw/Actor_19/03-01-03-02-02-02-19.wav,happy,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_21/03-01-01-01-01-02-21.wav,neutral,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/JK_f13.wav,fear,The pulsing glow of a cigarette!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_vine_neutral.wav,neutral,Say the word fine.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_gaze_fear.wav,fear,Say the word gaze.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_pearl_ps.wav,surprise,Say the word pearl.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_cool_neutral.wav,neutral,say the word cool?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_mob_ps.wav,surprise,Say the word mob.,happy
+training/data/ravdess_raw/Actor_23/03-01-06-01-01-02-23.wav,fear,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_02/03-01-06-01-01-02-02.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_bath_angry.wav,angry,Say the word bath.,happy
+training/data/savee_raw/SAVEE/KL_n12.wav,neutral,He always seemed to have money in his pocket.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_neat_angry.wav,angry,Say the word neat.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_knock_neutral.wav,neutral,"Say the word, Nock.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_thought_angry.wav,angry,say the word thought.,surprise
+training/data/ravdess_raw/Actor_04/03-01-06-01-01-02-04.wav,fear,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/JK_n10.wav,neutral,The nearest synagogue may not be within walking distance.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_chief_happy.wav,happy,Say the word chief.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_chat_angry.wav,angry,Say the word chat.,happy
+training/data/savee_raw/SAVEE/KL_su10.wav,surprise,"""'Grandmother outgrew her upbringing in petticoats.'",surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_gun_angry.wav,angry,Say the word guns.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_shawl_fear.wav,fear,"Say the word, Shawl.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_cause_ps.wav,surprise,Say the word cause.,angry
+training/data/ravdess_raw/Actor_12/03-01-05-01-01-02-12.wav,angry,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_check_sad.wav,sad,Say the word check.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_raid_fear.wav,fear,"Say the word, Raid.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_hall_happy.wav,happy,Say the word hall.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_which_happy.wav,happy,Say the word witch.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_keg_fear.wav,fear,Say the word keg.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_tape_ps.wav,surprise,Say the word tape.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_vine_angry.wav,angry,"Say the word, vines.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_deep_angry.wav,angry,Say the word deep.,happy
+training/data/savee_raw/SAVEE/JK_a02.wav,angry,Don't ask me to carry an oily rag like that.,happy
+training/data/ravdess_raw/Actor_23/03-01-04-02-01-02-23.wav,sad,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_team_fear.wav,fear,"Say the word, team.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_choice_happy.wav,happy,Say the word choice.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_team_angry.wav,angry,Say the word TEAM.,happy
+training/data/ravdess_raw/Actor_16/03-01-01-01-02-02-16.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_pass_fear.wav,fear,Say the word pass.,happy
+training/data/savee_raw/SAVEE/DC_su13.wav,surprise,"""'Lighted windows? ""'Glow jewel-bright through the downpour?'",surprise
+training/data/ravdess_raw/Actor_21/03-01-08-02-01-01-21.wav,surprise,Kids are talking by the door?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_hit_neutral.wav,neutral,Say the word hit.,happy
+training/data/ravdess_raw/Actor_11/03-01-06-02-01-01-11.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_name_ps.wav,surprise,Say the word name.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_reach_sad.wav,sad,Say the word reach.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_mob_sad.wav,sad,"Say the word, mob.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_juice_sad.wav,sad,Say the word juice.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_lore_neutral.wav,neutral,"Say the word, lore.",fear
+training/data/savee_raw/SAVEE/DC_sa05.wav,sad,"The diagnosis was discouraging, however he was not overly worried.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_limb_neutral.wav,neutral,"Say the word, limb.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_shack_sad.wav,sad,"Say the word, Shaq.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_cool_sad.wav,sad,Say the word cool.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_hole_neutral.wav,neutral,Say the word whole.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_shall_neutral.wav,neutral,Say the word shall.,angry
+training/data/ravdess_raw/Actor_15/03-01-01-01-02-01-15.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_02/03-01-03-01-02-01-02.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_chief_ps.wav,surprise,say the word chief,surprise
+training/data/ravdess_raw/Actor_19/03-01-08-01-02-01-19.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_sell_neutral.wav,neutral,Say the word self.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_yearn_angry.wav,angry,Say the word yearn.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_mode_angry.wav,angry,Say the word mode.,angry
+training/data/ravdess_raw/Actor_08/03-01-06-02-02-01-08.wav,fear,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_17/03-01-03-01-01-02-17.wav,happy,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_back_sad.wav,sad,Say the word back.,happy
+training/data/savee_raw/SAVEE/JE_h10.wav,happy,Serve the coleslaw after I add the oil.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_tell_fear.wav,fear,"Say the word, Tell.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_wife_ps.wav,surprise,Say the word wife.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_learn_sad.wav,sad,Say the word learn.,happy
+training/data/savee_raw/SAVEE/DC_n02.wav,neutral,Don't ask me to carry an oily rag like that.,happy
+training/data/savee_raw/SAVEE/DC_n30.wav,neutral,The eastern coast is a place for pure pleasure and excitement.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_beg_happy.wav,happy,Say the word beg.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_read_ps.wav,surprise,Say the word read.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_pass_happy.wav,happy,Say the word pass.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_live_sad.wav,sad,Say the word live.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_reach_neutral.wav,neutral,Say the word reach.,happy
+training/data/ravdess_raw/Actor_06/03-01-03-02-01-02-06.wav,happy,Kids are talking by the door!,fear
+training/data/ravdess_raw/Actor_18/03-01-08-02-01-01-18.wav,surprise,Kids are talking by the door?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_lore_happy.wav,happy,Say the word lore.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_ditch_happy.wav,happy,Say the word ditch.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_peg_fear.wav,fear,"Say the word, Peg.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_south_angry.wav,angry,Say the word south.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_soup_angry.wav,angry,Say the word soup.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_lose_fear.wav,fear,Say the word lose.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_pain_happy.wav,happy,Say the word pain.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_week_happy.wav,happy,Say the word weak,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_wash_sad.wav,sad,Say the word wash.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_shout_neutral.wav,neutral,"Say the word, shout.",sad
+training/data/savee_raw/SAVEE/JK_sa03.wav,sad,"""'Will you tell me why?'",neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_hit_happy.wav,happy,Say the word hit.,happy
+training/data/ravdess_raw/Actor_01/03-01-02-02-02-02-01.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_22/03-01-03-01-02-01-22.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_beg_angry.wav,angry,Say the word beg.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_lot_fear.wav,fear,Say the word lot.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_pole_ps.wav,surprise,Say the word pole.,happy
+training/data/ravdess_raw/Actor_06/03-01-06-02-02-01-06.wav,fear,Dogs are sitting by the door!,fear
+training/data/savee_raw/SAVEE/DC_h08.wav,happy,The oasis was a mirage.,happy
+training/data/ravdess_raw/Actor_14/03-01-08-02-02-01-14.wav,surprise,Dogs are sitting by the door?,surprise
+training/data/ravdess_raw/Actor_02/03-01-05-02-02-01-02.wav,angry,Dogs are sitting by the door!,fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_yes_angry.wav,angry,Say the word yes.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_jar_angry.wav,angry,Say the word jar.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_lid_angry.wav,angry,Say the word lid.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_puff_sad.wav,sad,Say the word puff.,happy
+training/data/ravdess_raw/Actor_07/03-01-03-01-02-01-07.wav,happy,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_12/03-01-06-01-01-02-12.wav,fear,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_18/03-01-08-01-02-01-18.wav,surprise,Dogs are sitting by the door?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_thin_ps.wav,surprise,Say the word thin.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_beg_fear.wav,fear,Say the word beg.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_mood_fear.wav,fear,"Say the word, mood.",happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_name_angry.wav,angry,Say the word name.,happy
+training/data/savee_raw/SAVEE/DC_h04.wav,happy,Those musicians harmonized marvelously.,neutral
+training/data/ravdess_raw/Actor_03/03-01-05-02-01-02-03.wav,angry,Kids are talking by the door!,fear
+training/data/savee_raw/SAVEE/KL_n25.wav,neutral,The carpet cleaner shampooed our oriental rug.,neutral
+training/data/ravdess_raw/Actor_06/03-01-04-01-02-02-06.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_good_neutral.wav,neutral,Say the word good.,happy
+training/data/ravdess_raw/Actor_14/03-01-02-01-01-01-14.wav,neutral,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_14/03-01-04-01-01-02-14.wav,sad,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/DC_n08.wav,neutral,Greg buys fresh milk each weekday morning.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_fail_angry.wav,angry,Say the word FAIL.,angry
+training/data/ravdess_raw/Actor_07/03-01-05-02-01-01-07.wav,angry,Kids are talking by the door!,fear
+training/data/ravdess_raw/Actor_22/03-01-05-01-01-02-22.wav,angry,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_judge_sad.wav,sad,"Say the word, judge.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_cab_fear.wav,fear,Say the word cab.,happy
+training/data/ravdess_raw/Actor_10/03-01-02-02-02-01-10.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_19/03-01-01-01-01-02-19.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_learn_fear.wav,fear,"Say the word, learned.",sad
+training/data/ravdess_raw/Actor_01/03-01-02-01-02-02-01.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_rain_angry.wav,angry,Say the word reign.,happy
+training/data/ravdess_raw/Actor_13/03-01-08-02-02-01-13.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_have_happy.wav,happy,Say the word have.,angry
+training/data/ravdess_raw/Actor_23/03-01-02-01-02-01-23.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_05/03-01-06-01-02-01-05.wav,fear,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_14/03-01-04-01-02-01-14.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_tire_angry.wav,angry,Say the word tire.,happy
+training/data/savee_raw/SAVEE/JE_n28.wav,neutral,"The diagnosis was discouraging, however, he was not overly worried.",sad
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_match_ps.wav,surprise,Say the word match.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_chat_neutral.wav,neutral,"Say the word, chat.",sad
+training/data/ravdess_raw/Actor_22/03-01-04-01-02-01-22.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_luck_neutral.wav,neutral,say the word luck.,surprise
+training/data/savee_raw/SAVEE/DC_a11.wav,angry,A few years later the dome fell in.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_wire_fear.wav,fear,Say the word wire.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_note_happy.wav,happy,Say the word note.,happy
+training/data/savee_raw/SAVEE/JE_n06.wav,neutral,Catastrophic economic cutbacks neglect the poor.,neutral
+training/data/ravdess_raw/Actor_10/03-01-05-01-01-01-10.wav,angry,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_16/03-01-01-01-01-01-16.wav,neutral,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_peg_sad.wav,sad,"Say the word, Peg.",fear
+training/data/ravdess_raw/Actor_17/03-01-05-01-02-01-17.wav,angry,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_20/03-01-06-01-02-01-20.wav,fear,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_nice_happy.wav,happy,Say the word nice.,happy
+training/data/ravdess_raw/Actor_08/03-01-04-01-01-01-08.wav,sad,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_gas_angry.wav,angry,Say the word gas.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_fail_fear.wav,fear,Say the word fail.,happy
+training/data/ravdess_raw/Actor_15/03-01-03-01-01-01-15.wav,happy,Kids are talking by the door.,neutral
+training/data/savee_raw/SAVEE/KL_f14.wav,fear,"One looked down on a sea of leaves, a breaking wave of flower.",fear
+training/data/savee_raw/SAVEE/JK_h15.wav,happy,Both the conditions and the complicity are documented in considerable details.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_join_happy.wav,happy,"Say the word, join.",angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_goose_neutral.wav,neutral,"Say the word, goose.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_book_sad.wav,sad,Say the word book.,angry
+training/data/ravdess_raw/Actor_17/03-01-05-02-02-01-17.wav,angry,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Sad/OAF_reach_sad.wav,sad,Say the word reach.,happy
+training/data/ravdess_raw/Actor_02/03-01-02-01-02-02-02.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_yes_happy.wav,happy,Say the word yes.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_laud_happy.wav,happy,"Say the word, Lod.",fear
+training/data/savee_raw/SAVEE/JK_sa08.wav,sad,John cleans shellfish for a living.,sad
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_rag_fear.wav,fear,"Say the word, Reg.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_dog_ps.wav,surprise,Say the word dog.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_doll_ps.wav,surprise,"Say the word, dove.",fear
+training/data/savee_raw/SAVEE/DC_f03.wav,fear,Will you tell me why?,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_gaze_fear.wav,fear,"Say the word, gays.",fear
+training/data/ravdess_raw/Actor_13/03-01-04-01-02-02-13.wav,sad,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_pain_ps.wav,surprise,Say the word paint?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_doll_fear.wav,fear,Say the word doll.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_fear/YAF_pearl_fear.wav,fear,"Say the word, Pearl.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_angry/YAF_lean_angry.wav,angry,Say the word lean.,happy
+training/data/ravdess_raw/Actor_02/03-01-06-01-02-01-02.wav,fear,Dogs are sitting by the door.,neutral
+training/data/savee_raw/SAVEE/JE_n25.wav,neutral,The carpet cleaners shampooed our oriental rug.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_merge_neutral.wav,neutral,Say the word merge.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_when_neutral.wav,neutral,Say the word when.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_such_angry.wav,angry,say the word such.,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_pearl_sad.wav,sad,"Say the word, Pearl.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_tape_neutral.wav,neutral,Say the word tape.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_hurl_sad.wav,sad,Say the word hurl.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_neutral/YAF_rush_neutral.wav,neutral,"Say the word, rush.",angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_shirt_sad.wav,sad,Say the word shirt.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_bite_sad.wav,sad,Say the word bite.,angry
+training/data/ravdess_raw/Actor_07/03-01-05-02-02-01-07.wav,angry,Dogs are sitting by the door!,fear
+training/data/ravdess_raw/Actor_06/03-01-08-01-02-02-06.wav,surprise,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_sour_happy.wav,happy,Say the word sour.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_sub_ps.wav,surprise,Say the word sub?,surprise
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_nag_ps.wav,surprise,Say the word nag?,surprise
+training/data/savee_raw/SAVEE/JE_f10.wav,fear,"""'Will Robin wear a yellow lily?'",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_room_ps.wav,surprise,Say the word room.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_pad_happy.wav,happy,"Say the word, pad.",fear
+training/data/savee_raw/SAVEE/JK_su04.wav,surprise,The carpet cleaner shampooed our oriental rug.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_beg_neutral.wav,neutral,"Say the word, beg.",angry
+training/data/ravdess_raw/Actor_22/03-01-04-02-01-02-22.wav,sad,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_07/03-01-03-02-02-02-07.wav,happy,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_23/03-01-08-01-01-02-23.wav,surprise,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_angry/OAF_chain_angry.wav,angry,Say the word change.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_jar_neutral.wav,neutral,"Say the word, jar.",fear
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_young_ps.wav,surprise,Say the word young.,happy
+training/data/ravdess_raw/Actor_21/03-01-03-01-02-02-21.wav,happy,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_sad/YAF_goal_sad.wav,sad,Say the word goal.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_soap_happy.wav,happy,Say the word soap.,happy
+training/data/ravdess_raw/Actor_05/03-01-02-01-02-01-05.wav,neutral,Dogs are sitting by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_rat_fear.wav,fear,Say the word rat.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_Fear/OAF_hit_fear.wav,fear,Say the word hit.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_happy/YAF_door_happy.wav,happy,Say the word door.,happy
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_happy/OAF_keep_happy.wav,happy,Say the word keep.,angry
+training/data/tess_raw/TESS Toronto emotional speech set data/YAF_pleasant_surprised/YAF_back_ps.wav,surprise,Say the word back.,happy
+training/data/ravdess_raw/Actor_01/03-01-06-02-01-01-01.wav,fear,Kids are talking by the door.,neutral
+training/data/tess_raw/TESS Toronto emotional speech set data/OAF_neutral/OAF_hall_neutral.wav,neutral,"Say the word, Hall.",fear
+training/data/ravdess_raw/Actor_03/03-01-05-02-01-01-03.wav,angry,Kids are talking by the door.,neutral
+training/data/ravdess_raw/Actor_08/03-01-05-02-02-02-08.wav,angry,Dogs are sitting by the door.,neutral
+training/data/ravdess_raw/Actor_08/03-01-03-02-02-02-08.wav,happy,Dogs are sitting by the door.,neutral

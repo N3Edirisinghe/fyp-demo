@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AffetX — Emotionally Adaptive AI Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header with Top-Left AffetX Logo (Topic 1) -->
+    <header>
+        <a href="#" class="brand-top-left">AffetX</a>
+    </header>
+
+    <!-- Main Section: Clean Minimalist Landing -->
+    <main id="landingView">
+        <h1 class="hero-title">
+            Designing an Emotionally Adaptive AI Companion
+        </h1>
+        <p class="hero-subtitle">
+            Using Voice Emotion Recognition and Long-Term Emotional Memory
+        </p>
+
+        <div class="server-pill-title">
+            <span class="status-dot"></span>
+            Research Server
+        </div>
+
+        <button class="btn-start" onclick="openAgreementModal()">
+            <span>Start Session</span>
+            <svg class="arrow-icon" viewBox="0 0 24 24">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+        </button>
+    </main>
+
+    <!-- =========================================================
+         GEMINI LIVE VOICE AI INTERFACE (AffetX Edition)
+         ========================================================= -->
+    <div id="botView">
+        <!-- Top Bar: Dual-Model Prediction Matrix & End Session Button -->
+        <div class="gemini-top-bar">
+            <div class="dual-model-hud" id="dualModelHud">
+                <span class="live-indicator-dot"></span>
+                <span id="sessionStatusLabel" style="font-size: 12.5px; color: #94a3b8;">Live Voice Session Active &bull; Listening...</span>
+            </div>
+
+            <!-- End Session Button (Triggers 1-5 Satisfaction Rating) -->
+            <button class="gemini-top-btn" onclick="openRatingModal()" title="Complete Session & Rate">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Center Stage: AffetX Logo + Emotion-Adaptive Blue Jay Image -->
+        <div class="gemini-center-stage">
+            <div class="affetx-live-logo">AffetX</div>
+
+            <!-- Voice & Emotion-Adaptive Bird Stage (Uploaded Reference Image) -->
+            <div class="bird-stage">
+                <div class="bird-aura" id="birdAura"></div>
+                <div class="bird-container" id="birdContainer">
+                    <img src="assets/blue_jay_bird.jpg" alt="AffetX Bird Companion" class="bird-image" id="birdImage">
+                </div>
+            </div>
+
+            <!-- Live Speech-to-Text Transcription Box -->
+            <div class="live-transcript-box" id="transcriptBox">
+                <span class="transcript-label">Transcribed Voice:</span>
+                <span id="transcriptText">"Speak into your mic to see speech transcribed live..."</span>
+            </div>
+
+            <p class="gemini-live-prompt" id="geminiLivePrompt">Listening to your voice...</p>
+            <p class="gemini-live-subtitle" id="geminiLiveSubtitle">Speak into your microphone and press Send (✈) when finished.</p>
+        </div>
+
+        <!-- Bottom Controls Bar: Audio Waveform Pill, Mic Pause/Resume, Send Voice, Rate & Exit -->
+        <div class="gemini-bottom-bar">
+            <!-- Dynamic Sound Waveform Pill -->
+            <div class="gemini-wave-pill" id="wavePill" title="Real-time Voice Waveform">
+                <canvas id="voiceCanvas" class="wave-canvas"></canvas>
+                <div class="pill-glow" id="pillGlow"></div>
+            </div>
+
+            <!-- Mic Pause / Resume Button -->
+            <button class="gemini-action-btn" id="micToggleBtn" onclick="toggleMicrophone()" title="Pause / Resume Microphone">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+            </button>
+
+            <!-- Send / Process Voice Turn Button -->
+            <button class="gemini-action-btn btn-send-voice" id="sendVoiceBtn" onclick="sendVoiceTurn()" title="Send Voice to AffetX">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+
+            <!-- Exit / Rate Session Button -->
+            <button class="gemini-action-btn" onclick="openRatingModal()" title="End Session & Rate">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         STEP 3 MODAL: 1-5 USER SATISFACTION EVALUATION
+         ========================================================= -->
+    <div class="modal" id="ratingModal">
+        <div class="modal-content" style="max-width: 500px; text-align: center;">
+            <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 6px; letter-spacing: -0.02em;">Rate Your AffetX Experience</h3>
+            <p style="font-size: 13.5px; color: #64748b; margin-bottom: 16px;">How satisfied are you with the companion's emotional accuracy and empathy?</p>
+
+            <div class="rating-score-label" id="ratingScoreLabel">Select a rating (1 - 5 Stars)</div>
+
+            <!-- 1 to 5 Stars Interactive Rating -->
+            <div class="star-rating-container" id="starContainer">
+                <button class="star-btn" onclick="setRating(1)" onmouseover="hoverRating(1)" onmouseleave="resetRatingHover()">★</button>
+                <button class="star-btn" onclick="setRating(2)" onmouseover="hoverRating(2)" onmouseleave="resetRatingHover()">★</button>
+                <button class="star-btn" onclick="setRating(3)" onmouseover="hoverRating(3)" onmouseleave="resetRatingHover()">★</button>
+                <button class="star-btn" onclick="setRating(4)" onmouseover="hoverRating(4)" onmouseleave="resetRatingHover()">★</button>
+                <button class="star-btn" onclick="setRating(5)" onmouseover="hoverRating(5)" onmouseleave="resetRatingHover()">★</button>
+            </div>
+
+            <!-- Optional Feedback Note -->
+            <textarea id="feedbackText" placeholder="Any additional research feedback (optional)..." style="width: 100%; height: 75px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 14px; font-size: 13.5px; margin-bottom: 20px; outline: none; resize: none; font-family: inherit;"></textarea>
+
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="g-btn" onclick="closeRatingModal()">Back to Session</button>
+                <button class="g-btn g-btn-primary" id="submitRatingBtn" onclick="submitSatisfactionRating()" disabled style="opacity: 0.5; cursor: not-allowed;">Submit & Finish</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal" id="agreementModal">
+        <div class="modal-content" style="text-align: left;">
+            <h3 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 14px; letter-spacing: -0.02em;">Participant Consent & Privacy</h3>
+            <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; font-size: 13.5px; color: #475569; line-height: 1.65; margin-bottom: 20px;">
+                <p style="margin-bottom: 8px; font-weight: 600; color: #1e293b;">Data Protection Commitment:</p>
+                <ul style="padding-left: 18px;">
+                    <li style="margin-bottom: 6px;">We <strong>do not</strong> collect or store names, phone numbers, or personally identifiable information.</li>
+                    <li style="margin-bottom: 6px;">Interaction data is strictly anonymized and used exclusively for academic research.</li>
+                    <li>Participation is entirely voluntary, and you may discontinue at any time.</li>
+                </ul>
+            </div>
+            <label style="display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: #1e293b; cursor: pointer; margin-bottom: 24px;">
+                <input type="checkbox" id="consentCheckbox" style="width: 17px; height: 17px;" onchange="toggleAgreeButton()">
+                <span>I understand and consent to participate anonymously.</span>
+            </label>
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="g-btn" onclick="closeAgreementModal()">Cancel</button>
+                <button class="g-btn g-btn-primary" id="agreeBtn" onclick="proceedToEmotionCheck()" disabled style="opacity: 0.5; cursor: not-allowed;">Accept & Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="emotionModal">
+        <div class="modal-content" style="max-width: 540px; text-align: left;">
+            <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 4px; letter-spacing: -0.02em;">How are you feeling right now?</h3>
+            <p style="font-size: 13.5px; color: #64748b; margin-bottom: 20px;">Select the state that best reflects your current emotional baseline:</p>
+            
+            <div class="emotion-grid">
+                <button class="emotion-card-btn" onclick="selectEmotion('Happy')">
+                    <span class="emotion-name">Happy</span>
+                    <span class="emotion-desc">Joyful, optimistic, or cheerful</span>
+                </button>
+                <button class="emotion-card-btn" onclick="selectEmotion('Sad')">
+                    <span class="emotion-name">Sad</span>
+                    <span class="emotion-desc">Low energy, down, or melancholic</span>
+                </button>
+                <button class="emotion-card-btn" onclick="selectEmotion('Angry')">
+                    <span class="emotion-name">Angry</span>
+                    <span class="emotion-desc">Frustrated, irritated, or tense</span>
+                </button>
+                <button class="emotion-card-btn" onclick="selectEmotion('Fear')">
+                    <span class="emotion-name">Fear</span>
+                    <span class="emotion-desc">Anxious, worried, or uneasy</span>
+                </button>
+                <button class="emotion-card-btn" onclick="selectEmotion('Neutral')">
+                    <span class="emotion-name">Neutral</span>
+                    <span class="emotion-desc">Calm, balanced, or steady</span>
+                </button>
+                <button class="emotion-card-btn" onclick="selectEmotion('Surprise')">
+                    <span class="emotion-name">Surprise</span>
+                    <span class="emotion-desc">Curious, startled, or amazed</span>
+                </button>
+            </div>
+            <div style="display: flex; justify-content: flex-end;">
+                <button class="g-btn" onclick="closeEmotionModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

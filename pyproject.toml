@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = ["training/notebooks", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B"]
+ignore = ["E501"]  # line length handled by black
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

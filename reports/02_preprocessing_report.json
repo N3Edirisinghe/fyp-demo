@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-08-28T02:24:41.494746+00:00",
+  "random_seed": 42,
+  "source_datasets": [
+    "ravdess",
+    "tess",
+    "savee"
+  ],
+  "excluded_native_emotion": "disgust (all three datasets \u2014 no equivalent class in the unified scheme)",
+  "ravdess_merge_note": "native 'calm' merged into 'neutral'",
+  "total_included_files": 4068,
+  "total_excluded_files": 652,
+  "total_unparsed_files": 0,
+  "class_count_validation_passed": true,
+  "checksum_verification_passed": true,
+  "standardization": {
+    "sample_rate_hz": 16000,
+    "duration_seconds": 2.5,
+    "offset_seconds": 0.6
+  },
+  "split_sizes": {
+    "train": 3254,
+    "val": 407,
+    "test": 407
+  },
+  "manifest_path": "data\\processed\\h1_manifest.csv",
+  "standardized_audio_dir": "data\\processed\\audio_standardized"
+}

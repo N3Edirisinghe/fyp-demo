@@ -1,0 +1,62 @@
+{
+  "model_name": "ensemble",
+  "architecture": "Averaging ensemble of EnsembleCNN and EnsembleCNNBiLSTM (Chowdhury et al. 2025, Table 2)",
+  "literature_basis": "Chowdhury, Ramanna & Kotecha (2025), Scientific Reports",
+  "input_length": 4266,
+  "num_classes": 6,
+  "label_to_idx": {
+    "happy": 0,
+    "sad": 1,
+    "angry": 2,
+    "fear": 3,
+    "neutral": 4,
+    "surprise": 5
+  },
+  "scaler_path": "models/h1/ensemble_scaler.pkl",
+  "cnn_branch_path": "models/h1/ensemble_cnn_branch.pt",
+  "cnn_bilstm_branch_path": "models/h1/ensemble_cnn_bilstm_branch.pt",
+  "hyperparameters": {
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.2,
+    "lstm_hidden_size": 64,
+    "max_epochs": 100,
+    "early_stopping_patience": 5,
+    "lr_scheduler_patience": 3,
+    "lr_min": 1e-05
+  },
+  "training": {
+    "cnn_branch_best_epoch": 4,
+    "cnn_bilstm_branch_best_epoch": 6,
+    "cnn_branch_duration_seconds": 28.0,
+    "cnn_bilstm_branch_duration_seconds": 35.6,
+    "device": "cuda",
+    "environment": "Google Colab"
+  },
+  "test_metrics": {
+    "cnn_branch": {
+      "accuracy": 0.8771498771498771,
+      "precision_macro": 0.8751740174942274,
+      "recall_macro": 0.873741690408357,
+      "f1_macro": 0.8738870297579352,
+      "f1_weighted": 0.8761872315385252
+    },
+    "cnn_bilstm_branch": {
+      "accuracy": 0.8943488943488943,
+      "precision_macro": 0.897714851053394,
+      "recall_macro": 0.8910285188062966,
+      "f1_macro": 0.8925938518482862,
+      "f1_weighted": 0.894756001741172
+    },
+    "ensemble": {
+      "accuracy": 0.8894348894348895,
+      "precision_macro": 0.8899151584312746,
+      "recall_macro": 0.886952142507698,
+      "f1_macro": 0.8873764904140719,
+      "f1_weighted": 0.8892918948784655
+    }
+  },
+  "git_commit": "6fc0314f2e2a2a4894ee53662ff03c3810fe1f32",
+  "trained_at_utc": "2026-08-29T11:28:48.348098+00:00"
+}

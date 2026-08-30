@@ -1,0 +1,24 @@
+# CODEOWNERS — automatically requests review from the right teammate(s)
+# based on which part of the codebase a PR touches.
+# Replace these GitHub usernames with your actual team members'.
+
+# Default owners for everything
+*                           @teammate1 @teammate2 @teammate3 @teammate4
+
+# H1 — Voice & text emotion recognition
+/src/emotion/               @teammate1
+/training/                  @teammate1
+
+# H2 — Memory architecture
+/src/memory/                @teammate2
+
+# H3 — LLM integration & conditions
+/src/llm/                   @teammate3
+/src/conditions/            @teammate3
+
+# UI / Streamlit app
+/src/ui/                    @teammate4
+/src/app.py                 @teammate4
+
+# Docs & research alignment — everyone should review these
+/docs/                      @teammate1 @teammate2 @teammate3 @teammate4

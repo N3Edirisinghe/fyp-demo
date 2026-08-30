@@ -1,0 +1,34 @@
+{
+  "evaluated_at_utc": "2026-08-30T07:29:52.933929+00:00",
+  "hypothesis": "H1: Voice-based emotion recognition achieves significantly higher accuracy than text-only emotion detection.",
+  "voice_model": "wav2vec2",
+  "text_model": "distilroberta-base (fine-tuned)",
+  "test_set_sizes": {
+    "voice_full_test_set": 407,
+    "text_full_test_set": 407,
+    "paired_intersection_used_for_h1_test": 407,
+    "files_excluded_no_successful_transcript": 0
+  },
+  "descriptive_metrics_on_paired_set": {
+    "voice_accuracy": 0.9484029484029484,
+    "text_accuracy": 0.31203931203931207,
+    "voice_f1_macro": 0.9491549388784181,
+    "text_f1_macro": 0.2968707662380327,
+    "accuracy_difference_voice_minus_text": 0.6363636363636362
+  },
+  "statistical_test": {
+    "normality_check": {
+      "test": "Shapiro-Wilk",
+      "statistic": 0.6315246944144108,
+      "p_value": 1.257369755089136e-28,
+      "is_normal": false
+    },
+    "test_used": "Wilcoxon signed-rank test",
+    "statistic": 536.0,
+    "p_value": 1.3937229144773365e-56,
+    "alpha": 0.05,
+    "significant": true
+  },
+  "conclusion": "H1 IS SUPPORTED",
+  "explanation": "Voice-based emotion recognition (wav2vec2) achieved significantly higher accuracy (0.9484) than the text-only baseline (0.3120) on the paired test set (n=407), Wilcoxon signed-rank test p=0.0000 < 0.05."
+}

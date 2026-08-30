@@ -1,0 +1,52 @@
+{
+  "model_name": "distilroberta_text_baseline",
+  "role": "H1 TEXT-ONLY BASELINE \u2014 not a competing voice candidate; used directly in 07_h1_final_evaluation.ipynb",
+  "base_checkpoint": "distilroberta-base",
+  "num_classes": 6,
+  "label_to_idx": {
+    "happy": 0,
+    "sad": 1,
+    "angry": 2,
+    "fear": 3,
+    "neutral": 4,
+    "surprise": 5
+  },
+  "asr_filtering": {
+    "total_transcript_rows": 4068,
+    "rows_kept_after_filtering": 4066,
+    "rows_dropped_failed_asr": 2
+  },
+  "hyperparameters": {
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "max_sequence_length": 64,
+    "max_epochs": 30,
+    "early_stopping_patience": 3,
+    "lr_scheduler_patience": 2,
+    "full_fine_tuning": true
+  },
+  "training": {
+    "best_epoch": 5,
+    "epochs_run": 8,
+    "best_val_loss": 1.575317516959563,
+    "training_duration_seconds": 181.7,
+    "device": "cuda",
+    "environment": "Google Colab",
+    "total_parameters": 82123014
+  },
+  "test_metrics": {
+    "accuracy": 0.31203931203931207,
+    "precision_macro": 0.382419409310281,
+    "recall_macro": 0.3050735272957495,
+    "f1_macro": 0.2968707662380327,
+    "precision_weighted": 0.3790502754401176,
+    "recall_weighted": 0.31203931203931207,
+    "f1_weighted": 0.2998184790287979
+  },
+  "git_commit": "6fc0314f2e2a2a4894ee53662ff03c3810fe1f32",
+  "trained_at_utc": "2026-08-30T01:31:25.345205+00:00",
+  "model_dir": "models/h1/distilroberta_finetuned",
+  "test_file_list_path": "models/h1/distilroberta_test_files.csv",
+  "important_note_for_07": "07_h1_final_evaluation.ipynb MUST restrict its paired comparison to the original_path values listed in distilroberta_test_files.csv \u2014 the voice model's full test set will contain files this text baseline could not be evaluated on, due to ASR failures."
+}

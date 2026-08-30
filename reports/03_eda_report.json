@@ -1,0 +1,38 @@
+{
+  "total_clips": 4068,
+  "class_distribution": {
+    "happy": 652,
+    "sad": 652,
+    "angry": 652,
+    "fear": 652,
+    "neutral": 808,
+    "surprise": 652
+  },
+  "class_imbalance_ratio_max_over_min": 1.24,
+  "gender_distribution": {
+    "female": 3024,
+    "male": 1044
+  },
+  "gender_confounded_with_dataset": true,
+  "total_unique_speakers": 31,
+  "speakers_appearing_in_multiple_splits": 30,
+  "speaker_independent_split": false,
+  "duration_stats_seconds": {
+    "ravdess": {
+      "min": 2.94,
+      "mean": 3.66,
+      "max": 5.11
+    },
+    "savee": {
+      "min": 1.63,
+      "mean": 3.82,
+      "max": 7.14
+    },
+    "tess": {
+      "min": 1.25,
+      "mean": 1.99,
+      "max": 2.98
+    }
+  },
+  "figures_directory": "reports\\figures\\h1_eda"
+}

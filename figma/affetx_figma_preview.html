@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AffetX — Figma Design System & Artboards Exporter</title>
+    <link rel="stylesheet" href="../frontend/css/styles.css">
+    <style>
+        body {
+            background: #0f172a;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 40px;
+            margin: 0;
+        }
+        .figma-header {
+            max-width: 1440px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+        }
+        .figma-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .figma-desc {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+        .artboard-container {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .artboard-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        .artboard-bar {
+            background: #0f172a;
+            padding: 14px 24px;
+            border-bottom: 1px solid #334155;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            color: #38bdf8;
+            letter-spacing: 0.05em;
+        }
+        .artboard-view {
+            width: 100%;
+            height: 900px;
+            border: none;
+            display: block;
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="figma-header">
+        <div class="figma-title">AffetX Figma Design Suite</div>
+        <p class="figma-desc">All 6 UI screens generated with 100% precision. Drag <code>affetx_figma_artboards.svg</code> into Figma to open them directly!</p>
+    </div>
+
+    <div class="artboard-container">
+        <!-- SVG Vector Master -->
+        <div class="artboard-card">
+            <div class="artboard-bar">
+                <span>VECTOR MASTER ARTBOARDS (DIRECT FIGMA IMPORT FILE)</span>
+                <span style="color: #94a3b8; font-size: 13px;">affetx_figma_artboards.svg</span>
+            </div>
+            <div style="padding: 20px; overflow-x: auto; background: #0b1120;">
+                <img src="affetx_figma_artboards.svg" alt="Figma Vector Master Artboards" style="width: 100%; max-width: 1400px; border-radius: 8px; border: 1px solid #334155;">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

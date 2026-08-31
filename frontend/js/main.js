@@ -34,9 +34,39 @@ function toggleAgreeButton() {
     }
 }
 
+let selectedFormEmotion = "Happy";
+
+function handleFormEmotionSelect(element, emotion) {
+    selectedFormEmotion = emotion;
+    const options = document.querySelectorAll('.google-form-radio-option');
+    options.forEach(opt => opt.classList.remove('selected'));
+    if (element) {
+        element.classList.add('selected');
+        const radio = element.querySelector('input[type="radio"]');
+        if (radio) radio.checked = true;
+    }
+}
+
+function submitGoogleFormEmotion() {
+    selectEmotion(selectedFormEmotion || "Happy");
+}
+
 function proceedToEmotionCheck() {
     closeAgreementModal();
-    openEmotionModal();
+    
+    // 1. Show Google Congratulations Popup
+    const congratsModal = document.getElementById('congratsModal');
+    if (congratsModal) congratsModal.style.display = 'flex';
+
+    // 2. Auto-close after 1.6 seconds and transition seamlessly to Google Form Emotion Survey
+    setTimeout(() => {
+        if (congratsModal) congratsModal.style.display = 'none';
+        openEmotionModal();
+        const firstOption = document.querySelector('.google-form-radio-option');
+        if (firstOption) {
+            handleFormEmotionSelect(firstOption, 'Happy');
+        }
+    }, 1600);
 }
 
 function openEmotionModal() {
@@ -226,9 +256,9 @@ async function initAudioVisualizer() {
     const canvas = document.getElementById('voiceCanvas');
     if (!canvas) return;
     
-    // Set internal canvas resolution
-    canvas.width = canvas.offsetWidth * window.devicePixelRatio || 300;
-    canvas.height = canvas.offsetHeight * window.devicePixelRatio || 90;
+    // Set internal canvas resolution for Center Stage Pill
+    canvas.width = (canvas.offsetWidth || 310) * (window.devicePixelRatio || 1);
+    canvas.height = (canvas.offsetHeight || 60) * (window.devicePixelRatio || 1);
 
     isMicActive = true;
     const micBtn = document.getElementById('micToggleBtn');
@@ -554,30 +584,22 @@ function renderFluidWave() {
     }
 
     // =========================================================
-    // VOICE-REACTIVE CIRCULAR ORB & BIRD MOTION
+    // VOICE-REACTIVE CENTER WAVE ORB DYNAMICS
     // =========================================================
-    const birdContainer = document.getElementById('birdContainer');
-    const birdImage = document.getElementById('birdImage');
-    const birdAura = document.getElementById('birdAura');
+    const waveOrb = document.getElementById('waveOrb');
+    const waveAura = document.getElementById('waveAura');
 
-    if (birdContainer && birdImage) {
-        // Flight Hover & Elevation
-        const hoverY = Math.sin(wavePhase * 0.9) * 8 - (volumeLevel * 28);
-        const tiltAngle = Math.sin(wavePhase * 0.6) * 4 + (Math.cos(wavePhase * 1.3) * volumeLevel * 7);
+    if (waveOrb) {
+        // Floating elevation & breathing scale
+        const hoverY = Math.sin(wavePhase * 0.9) * 4 - (volumeLevel * 14);
         const orbScale = 1.0 + (volumeLevel * 0.08);
+        waveOrb.style.transform = `translateY(${hoverY}px) scale(${orbScale})`;
 
-        birdContainer.style.transform = `translateY(${hoverY}px) rotate(${tiltAngle}deg) scale(${orbScale})`;
-
-        // Micro-motion inside the circle
-        const birdInnerY = Math.sin(wavePhase * 1.4) * 4 - (volumeLevel * 10);
-        const birdInnerScale = 1.0 + (volumeLevel * 0.12);
-        birdImage.style.transform = `translateY(${birdInnerY}px) scale(${birdInnerScale})`;
-
-        // Glowing Aura Expansion
-        if (birdAura) {
-            const auraScale = 0.95 + (volumeLevel * 0.9);
-            birdAura.style.transform = `translate(-50%, -50%) scale(${auraScale})`;
-            birdAura.style.opacity = `${0.4 + volumeLevel * 0.6}`;
+        // Radiant Aura expansion
+        if (waveAura) {
+            const auraScale = 0.95 + (volumeLevel * 0.85);
+            waveAura.style.transform = `translate(-50%, -50%) scale(${auraScale})`;
+            waveAura.style.opacity = `${0.35 + volumeLevel * 0.65}`;
         }
     }
 
@@ -585,18 +607,18 @@ function renderFluidWave() {
     ctx.clearRect(0, 0, width, height);
     wavePhase += 0.06;
 
-    // Draw Multi-Layer Fluid Soundwaves (Gemini Aurora Style)
+    // Draw Multi-Layer Fluid Soundwaves (Center Gemini Aurora Style)
     const waves = [
-        { color: 'rgba(56, 189, 248, 0.85)', speed: 1.0, freq: 0.015, amp: 24 * volumeLevel },
-        { color: 'rgba(129, 140, 248, 0.75)', speed: 1.4, freq: 0.022, amp: 20 * volumeLevel },
-        { color: 'rgba(244, 63, 94, 0.65)', speed: -0.9, freq: 0.018, amp: 16 * volumeLevel },
-        { color: 'rgba(251, 191, 36, 0.6)', speed: 1.8, freq: 0.028, amp: 12 * volumeLevel }
+        { color: 'rgba(56, 189, 248, 0.95)', speed: 1.0, freq: 0.018, amp: 30 * volumeLevel },
+        { color: 'rgba(129, 140, 248, 0.85)', speed: 1.4, freq: 0.024, amp: 26 * volumeLevel },
+        { color: 'rgba(244, 63, 94, 0.75)', speed: -0.9, freq: 0.020, amp: 20 * volumeLevel },
+        { color: 'rgba(168, 85, 247, 0.80)', speed: 1.8, freq: 0.030, amp: 16 * volumeLevel }
     ];
 
     waves.forEach(w => {
         ctx.beginPath();
         ctx.strokeStyle = w.color;
-        ctx.lineWidth = 3.5 * (window.devicePixelRatio || 1);
+        ctx.lineWidth = 4 * (window.devicePixelRatio || 1);
         ctx.lineCap = 'round';
 
         const centerY = height / 2;

@@ -2,6 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import base64
+import re
 
 # =========================================================
 # STREAMLIT CLOUD APP CONFIGURATION
@@ -58,18 +59,30 @@ def get_bundled_html():
         with open(js_path, "r", encoding="utf-8") as f:
             js_content = f.read()
 
-    # Convert bird image to Base64 URI so it renders seamlessly anywhere
+    # Convert bird image to Base64 URI if present
     if os.path.exists(img_path):
         with open(img_path, "rb") as f:
             b64_img = base64.b64encode(f.read()).decode("utf-8")
             data_uri = f"data:image/jpeg;base64,{b64_img}"
             html_content = html_content.replace('src="assets/blue_jay_bird.jpg"', f'src="{data_uri}"')
 
-    # Bundle CSS and JS directly inside HTML
+    # Robustly bundle CSS and JS directly inside HTML
     if css_content:
-        html_content = html_content.replace('<link rel="stylesheet" href="css/styles.css">', f'<style>{css_content}</style>')
+        # Match <link rel="stylesheet" href="css/styles.css..."> with or without query params
+        html_content = re.sub(
+            r'<link\s+rel=["\']stylesheet["\']\s+href=["\']css/styles\.css(?:\?[^"\']*)?["\']\s*>',
+            lambda m: f'<style>\n{css_content}\n</style>',
+            html_content,
+            flags=re.IGNORECASE
+        )
     if js_content:
-        html_content = html_content.replace('<script src="js/main.js"></script>', f'<script>{js_content}</script>')
+        # Match <script src="js/main.js..."></script> with or without query params
+        html_content = re.sub(
+            r'<script\s+src=["\']js/main\.js(?:\?[^"\']*)?["\']\s*>\s*</script>',
+            lambda m: f'<script>\n{js_content}\n</script>',
+            html_content,
+            flags=re.IGNORECASE
+        )
 
     return html_content
 

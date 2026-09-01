@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4600 2100" width="4600" height="2100" style="background:#0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6800 3600" width="6800" height="3600" style="background:#090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
   <defs>
     <!-- Gradients -->
     <linearGradient id="landingGlow1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="googleBlueStrip" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -15,212 +15,104 @@
       <stop offset="70%" stop-color="#3b82f6"/>
       <stop offset="100%" stop-color="#1d4ed8"/>
     </linearGradient>
-    <radialGradient id="darkStageBg" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#0d1b3e" stop-opacity="0.6"/>
-      <stop offset="60%" stop-color="#020617" stop-opacity="0.95"/>
+    <radialGradient id="darkStageBg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0e1a38" stop-opacity="0.8"/>
+      <stop offset="55%" stop-color="#020617" stop-opacity="0.98"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
     <radialGradient id="cyanAura" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
-      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Filters & Shadows -->
-    <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.22"/>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.28"/>
     </filter>
     <filter id="buttonShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#4285f4" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#4285f4" flood-opacity="0.45"/>
     </filter>
     <filter id="pillShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#38bdf8" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#38bdf8" flood-opacity="0.45"/>
     </filter>
   </defs>
 
   <!-- ========================================================================= -->
-  <!-- ARTBOARD 1: LANDING HERO PAGE (1440 x 900) -->
+  <!-- ROW 1: DESKTOP BREAKPOINT (1440 x 900) -->
   <!-- ========================================================================= -->
-  <g id="Artboard_1_Landing_Hero" transform="translate(100, 100)">
-    <!-- Canvas Frame -->
+  <text x="100" y="70" fill="#38bdf8" font-size="32" font-weight="800" letter-spacing="1">🖥️ BREAKPOINT 1: DESKTOP (1440 × 900) — 12-COLUMN FLUID GRID</text>
+
+  <!-- 1.1 Desktop Landing Hero -->
+  <g id="Desktop_1_Landing_Hero" transform="translate(100, 110)">
     <rect width="1440" height="900" rx="16" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
-    
-    <!-- Ambient Radial Glows -->
     <circle cx="200" cy="150" r="400" fill="url(#landingGlow1)"/>
     <circle cx="1200" cy="750" r="450" fill="url(#landingGlow1)"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">1.1 DESKTOP LANDING HERO</text>
 
-    <!-- Artboard Title Label -->
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 1: LANDING HERO PAGE (1440 × 900)</text>
-
-    <!-- Logo: AffetX (Times New Roman, 60px, Navy Blue #091e42) -->
+    <!-- Top Left Brand -->
     <text x="80" y="110" font-family="'Times New Roman', Times, serif" font-size="60" font-weight="bold" fill="#091e42">AffetX</text>
 
-    <!-- Main Title: Designing an Emotionally Adaptive AI Companion (40px, Times New Roman) -->
+    <!-- Hero Titles -->
     <text x="80" y="320" font-family="'Times New Roman', Times, serif" font-size="40" font-weight="bold" fill="#0f172a">Designing an Emotionally Adaptive AI Companion</text>
-
-    <!-- Subtitle (2 Lines): 40px, Times New Roman -->
     <text x="80" y="410" font-family="'Times New Roman', Times, serif" font-size="40" font-weight="bold" fill="#0f172a">Using Voice Emotion Recognition</text>
     <text x="80" y="470" font-family="'Times New Roman', Times, serif" font-size="40" font-weight="bold" fill="#0f172a">and Long-Term Emotional Memory</text>
 
-    <!-- Research Server: 50px, Times New Roman -->
+    <!-- Research Server & Button -->
     <text x="80" y="780" font-family="'Times New Roman', Times, serif" font-size="50" font-weight="bold" fill="#0f172a">Research Server</text>
-
-    <!-- Start Survey Button: 40px Times New Roman, Google Blue #4285F4 -->
     <g transform="translate(1020, 715)" filter="url(#buttonShadow)" cursor="pointer">
       <rect width="340" height="90" rx="8" fill="#4285f4"/>
       <text x="170" y="60" font-family="'Times New Roman', Times, serif" font-size="40" font-weight="bold" fill="#ffffff" text-anchor="middle">Start Survey</text>
     </g>
   </g>
 
-  <!-- ========================================================================= -->
-  <!-- ARTBOARD 2: GOOGLE TERMS & CONDITIONS MODAL (OVERLAY) -->
-  <!-- ========================================================================= -->
-  <g id="Artboard_2_Terms_Modal" transform="translate(1600, 100)">
-    <!-- Canvas Dim Overlay -->
-    <rect width="1440" height="900" rx="16" fill="#000000" fill-opacity="0.65" stroke="#334155" stroke-width="2"/>
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 2: GOOGLE TERMS &amp; CONDITIONS MODAL (OVERLAY)</text>
+  <!-- 1.2 Desktop Google Form Modal Overlay -->
+  <g id="Desktop_2_Emotion_Form" transform="translate(1600, 110)">
+    <rect width="1440" height="900" rx="16" fill="#000000" fill-opacity="0.7" stroke="#334155" stroke-width="2"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">1.2 DESKTOP GOOGLE FORM SURVEY (OVERLAY)</text>
 
-    <!-- Dialog Card (680px Width) -->
-    <g transform="translate(380, 130)" filter="url(#cardShadow)">
-      <rect width="680" height="640" rx="10" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
-
-      <!-- Header -->
-      <text x="36" y="52" font-size="22" font-weight="700" fill="#202124">Terms and Conditions</text>
-      <text x="36" y="78" font-size="13.5" fill="#5f6368">AffetX Emotionally Adaptive Companion Study Agreement</text>
-      <text x="635" y="52" font-size="24" fill="#5f6368" text-anchor="middle" cursor="pointer">✕</text>
-
-      <!-- Scrollable Legal Container -->
-      <g transform="translate(36, 105)">
-        <rect width="608" height="360" rx="8" fill="#f8fafd" stroke="#d2e3fc" stroke-width="1"/>
-        <text x="24" y="36" font-size="14.5" font-weight="700" fill="#1e3a8a">1. Evaluation Purpose</text>
-        <text x="24" y="60" font-size="12.5" fill="#3c4043">This application evaluates AI emotional adaptation accuracy and long-term memory fidelity.</text>
-
-        <text x="24" y="100" font-size="14.5" font-weight="700" fill="#1e3a8a">2. Acoustic &amp; Audio Processing</text>
-        <text x="24" y="124" font-size="12.5" fill="#3c4043">Live microphone stream evaluates pitch, volume, and spectrograms in real-time.</text>
-
-        <text x="24" y="164" font-size="14.5" font-weight="700" fill="#1e3a8a">3. Speech-to-Text &amp; Semantics</text>
-        <text x="24" y="188" font-size="12.5" fill="#3c4043">Transcribed utterances are evaluated by RoBERTa for semantic emotional intent.</text>
-
-        <text x="24" y="228" font-size="14.5" font-weight="700" fill="#1e3a8a">4. Data Privacy &amp; Anonymity</text>
-        <text x="24" y="252" font-size="12.5" fill="#3c4043">All audio is processed securely in volatile memory. No biometric identity is permanently stored.</text>
-
-        <text x="24" y="292" font-size="14.5" font-weight="700" fill="#1e3a8a">5. Voluntary Participation</text>
-        <text x="24" y="316" font-size="12.5" fill="#3c4043">You reserve the right to terminate session anytime with the exit button without penalty.</text>
-      </g>
-
-      <!-- Checkbox & Label -->
-      <g transform="translate(36, 495)">
-        <rect width="18" height="18" rx="3" fill="#4285f4" stroke="#4285f4"/>
-        <path d="M4 9 L7 12 L14 5" stroke="#ffffff" stroke-width="2.2" fill="none"/>
-        <text x="30" y="14" font-size="13.5" fill="#202124">I have read and agree with the above terms and conditions</text>
-      </g>
-
-      <!-- Footer Buttons -->
-      <g transform="translate(36, 555)">
-        <g transform="translate(420, 0)">
-          <rect width="80" height="40" rx="4" fill="#ffffff" stroke="#dadce0"/>
-          <text x="40" y="25" font-size="14" font-weight="600" fill="#5f6368" text-anchor="middle">Cancel</text>
-        </g>
-        <g transform="translate(515, 0)">
-          <rect width="130" height="40" rx="4" fill="#4285f4"/>
-          <text x="65" y="25" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Accept &amp; Continue</text>
-        </g>
-      </g>
-    </g>
-  </g>
-
-  <!-- ========================================================================= -->
-  <!-- ARTBOARD 3: GOOGLE CONGRATULATIONS POPUP (1.6s AUTO-CLOSE) -->
-  <!-- ========================================================================= -->
-  <g id="Artboard_3_Congrats_Popup" transform="translate(3100, 100)">
-    <rect width="1440" height="900" rx="16" fill="#000000" fill-opacity="0.65" stroke="#334155" stroke-width="2"/>
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 3: GOOGLE CONGRATULATIONS DIALOG (1.6s AUTO-CLOSE)</text>
-
-    <!-- Card (440px Width) -->
-    <g transform="translate(500, 260)" filter="url(#cardShadow)">
-      <rect width="440" height="340" rx="14" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
-
-      <!-- Green Circle Checkmark -->
-      <g transform="translate(220, 75)">
-        <circle cx="0" cy="0" r="36" fill="#e6f4ea" stroke="#ceead6" stroke-width="2"/>
-        <path d="M-12 0 L-4 8 L14 -10" stroke="#0f9d58" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-
-      <!-- Titles -->
-      <text x="220" y="165" font-size="25" font-weight="700" fill="#202124" text-anchor="middle">Congratulations!</text>
-      <text x="220" y="200" font-size="14" fill="#5f6368" text-anchor="middle">Participant consent has been confirmed successfully.</text>
-
-      <!-- Progress Track & Bar -->
-      <g transform="translate(50, 245)">
-        <rect width="340" height="5" rx="3" fill="#e8eaed"/>
-        <rect width="240" height="5" rx="3" fill="#4285f4"/>
-      </g>
-      <text x="220" y="278" font-size="12" fill="#80868b" text-anchor="middle">Loading emotion baseline check-in...</text>
-    </g>
-  </g>
-
-  <!-- ========================================================================= -->
-  <!-- ARTBOARD 4: GOOGLE FORM EMOTION BASELINE SURVEY -->
-  <!-- ========================================================================= -->
-  <g id="Artboard_4_Emotion_Form" transform="translate(100, 1150)">
-    <rect width="1440" height="900" rx="16" fill="#000000" fill-opacity="0.65" stroke="#334155" stroke-width="2"/>
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 4: GOOGLE FORM EMOTION BASELINE SURVEY</text>
-
-    <!-- Google Form Card (660px Width) -->
     <g transform="translate(390, 80)" filter="url(#cardShadow)">
       <rect width="660" height="740" rx="10" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
-      
-      <!-- Top Colored Accent Strip -->
-      <rect width="660" height="10" rx="0" fill="url(#googleBlueStrip)"/>
-
-      <!-- Form Header -->
+      <rect width="660" height="10" fill="url(#googleBlueStrip)"/>
       <text x="36" y="52" font-size="22" font-weight="700" fill="#202124">Please Select Your Current Emotion</text>
       <text x="36" y="78" font-size="13.5" fill="#5f6368">Select the baseline emotional state that best matches how you feel right now.</text>
-      <text x="615" y="52" font-size="24" fill="#5f6368" text-anchor="middle" cursor="pointer">✕</text>
+      <text x="615" y="52" font-size="24" fill="#5f6368" text-anchor="middle">✕</text>
 
-      <!-- Question Card -->
       <g transform="translate(36, 110)">
         <rect width="588" height="510" rx="8" fill="#f8fafd" stroke="#d2e3fc" stroke-width="1"/>
         <text x="24" y="36" font-size="15" font-weight="700" fill="#202124">What is your current emotional baseline? <tspan fill="#d93025">*</tspan></text>
 
-        <!-- 6 Radio Options -->
-        <!-- Option 1: Happy -->
+        <!-- Happy -->
         <g transform="translate(24, 60)">
           <rect width="540" height="58" rx="6" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.5"/>
-          <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#4285f4" stroke-width="2"/>
-          <circle cx="28" cy="29" r="5" fill="#4285f4"/>
+          <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#4285f4" stroke-width="2"/><circle cx="28" cy="29" r="5" fill="#4285f4"/>
           <text x="50" y="34" font-size="15" font-weight="700" fill="#202124">Happy <tspan font-size="13" font-weight="400" fill="#5f6368">• Joyful, optimistic, or cheerful</tspan></text>
         </g>
-
-        <!-- Option 2: Sad -->
+        <!-- Sad -->
         <g transform="translate(24, 130)">
           <rect width="540" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
           <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/>
           <text x="50" y="34" font-size="15" font-weight="700" fill="#202124">Sad <tspan font-size="13" font-weight="400" fill="#5f6368">• Low energy, down, or melancholic</tspan></text>
         </g>
-
-        <!-- Option 3: Angry -->
+        <!-- Angry -->
         <g transform="translate(24, 200)">
           <rect width="540" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
           <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/>
           <text x="50" y="34" font-size="15" font-weight="700" fill="#202124">Angry <tspan font-size="13" font-weight="400" fill="#5f6368">• Frustrated, irritated, or tense</tspan></text>
         </g>
-
-        <!-- Option 4: Fear -->
+        <!-- Fear -->
         <g transform="translate(24, 270)">
           <rect width="540" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
           <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/>
           <text x="50" y="34" font-size="15" font-weight="700" fill="#202124">Fear <tspan font-size="13" font-weight="400" fill="#5f6368">• Anxious, worried, or uneasy</tspan></text>
         </g>
-
-        <!-- Option 5: Neutral -->
+        <!-- Neutral -->
         <g transform="translate(24, 340)">
           <rect width="540" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
           <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/>
           <text x="50" y="34" font-size="15" font-weight="700" fill="#202124">Neutral <tspan font-size="13" font-weight="400" fill="#5f6368">• Calm, balanced, or steady</tspan></text>
         </g>
-
-        <!-- Option 6: Surprise -->
+        <!-- Surprise -->
         <g transform="translate(24, 410)">
           <rect width="540" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
           <circle cx="28" cy="29" r="9" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/>
@@ -228,9 +120,8 @@
         </g>
       </g>
 
-      <!-- Footer Buttons -->
       <g transform="translate(36, 655)">
-        <text x="10" y="30" font-size="14" font-weight="600" fill="#5f6368" cursor="pointer">Cancel</text>
+        <text x="10" y="30" font-size="14" font-weight="600" fill="#5f6368">Cancel</text>
         <g transform="translate(345, 0)">
           <rect width="240" height="46" rx="6" fill="#4285f4"/>
           <text x="120" y="28" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Submit &amp; Launch Companion</text>
@@ -239,22 +130,17 @@
     </g>
   </g>
 
-  <!-- ========================================================================= -->
-  <!-- ARTBOARD 5: GEMINI LIVE VOICE COMPANION STAGE (1440 x 900) -->
-  <!-- ========================================================================= -->
-  <g id="Artboard_5_Companion_Stage" transform="translate(1600, 1150)">
+  <!-- 1.3 Desktop Gemini Live Companion Stage -->
+  <g id="Desktop_3_Live_Stage" transform="translate(3100, 110)">
     <rect width="1440" height="900" rx="16" fill="url(#darkStageBg)" stroke="#334155" stroke-width="2"/>
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 5: GEMINI LIVE VOICE COMPANION STAGE (1440 × 900)</text>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">1.3 DESKTOP LIVE VOICE STAGE</text>
 
     <!-- Top Bar -->
     <g transform="translate(80, 40)">
-      <!-- Left Pill -->
       <rect width="320" height="42" rx="21" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
       <circle cx="26" cy="21" r="5" fill="#38bdf8"/>
       <text x="42" y="26" font-size="13" font-weight="600" fill="#93c5fd">Live Voice Session Active • Listening...</text>
-
-      <!-- Right Exit Circle -->
-      <g transform="translate(1240, 0)" cursor="pointer">
+      <g transform="translate(1240, 0)">
         <circle cx="21" cy="21" r="21" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
         <text x="21" y="27" font-size="16" fill="#ffffff" text-anchor="middle">✕</text>
       </g>
@@ -262,48 +148,34 @@
 
     <!-- Center Stage Area -->
     <g transform="translate(720, 280)">
-      <!-- AffetX Cursive Logo (Shifted Upwards) -->
       <text x="0" y="-80" font-family="'Brush Script MT', 'Dancing Script', cursive" font-size="68" font-style="italic" font-weight="bold" fill="url(#affetxCursive)" text-anchor="middle">AffetX</text>
-
-      <!-- Cyan Radiant Aura Behind Pill -->
       <ellipse cx="0" cy="0" rx="180" ry="50" fill="url(#cyanAura)"/>
 
-      <!-- Center Voice Soundwave Horizontal Pill Capsule (310px x 60px) -->
+      <!-- 310px x 60px Center Soundwave Capsule -->
       <g transform="translate(-155, -30)" filter="url(#pillShadow)">
         <rect width="310" height="60" rx="30" fill="#0b1120" fill-opacity="0.95" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
-
-        <!-- 4 Multi-Layer Sine Soundwaves -->
         <path d="M 10 30 Q 80 5 155 30 T 300 30" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
         <path d="M 10 30 Q 80 50 155 30 T 300 30" fill="none" stroke="#818cf8" stroke-width="3.5" stroke-linecap="round"/>
         <path d="M 10 30 Q 80 18 155 30 T 300 30" fill="none" stroke="#f43f5e" stroke-width="3" stroke-linecap="round"/>
         <path d="M 10 30 Q 80 42 155 30 T 300 30" fill="none" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
       </g>
 
-      <!-- Live Transcribed Voice Box (55px Below Capsule) -->
+      <!-- 55px Below Capsule -->
       <g transform="translate(-280, 85)">
         <rect width="560" height="44" rx="10" fill="#0a0f1d" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
-        <text x="280" y="27" font-size="13" fill="#f1f5f9" text-anchor="middle">
-          <tspan fill="#94a3b8" font-weight="700">TRANSCRIBED VOICE: </tspan>"Speak into your mic to see speech transcribed live..."
-        </text>
+        <text x="280" y="27" font-size="13" fill="#f1f5f9" text-anchor="middle"><tspan fill="#94a3b8" font-weight="700">TRANSCRIBED VOICE: </tspan>"Speak into your mic to see speech transcribed live..."</text>
       </g>
-
-      <!-- Live Prompt Text -->
       <text x="0" y="180" font-size="20" font-weight="500" fill="#f1f5f9" text-anchor="middle">Listening to your voice...</text>
     </g>
 
-    <!-- Bottom Controls Bar (Centered Buttons) -->
+    <!-- Bottom Controls -->
     <g transform="translate(620, 800)">
-      <!-- Mic Button -->
       <circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/>
       <path d="M 26 15 L 26 27 M 20 22 A 6 6 0 0 0 32 22 M 26 31 L 26 37 M 21 37 L 31 37" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-
-      <!-- Send Voice Turn Button (✈) -->
       <g transform="translate(75, 0)">
         <circle cx="28" cy="26" r="28" fill="#3b82f6"/>
         <path d="M 18 26 L 38 16 L 30 36 L 26 28 Z" fill="#ffffff"/>
       </g>
-
-      <!-- Exit Button (✕) -->
       <g transform="translate(160, 0)">
         <circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/>
         <text x="26" y="33" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">✕</text>
@@ -311,51 +183,212 @@
     </g>
   </g>
 
+
   <!-- ========================================================================= -->
-  <!-- ARTBOARD 6: GOOGLE SATISFACTION RATING MODAL (OVERLAY) -->
+  <!-- ROW 2: TABLET BREAKPOINT (768 x 1024) -->
   <!-- ========================================================================= -->
-  <g id="Artboard_6_Rating_Modal" transform="translate(3100, 1150)">
-    <rect width="1440" height="900" rx="16" fill="#000000" fill-opacity="0.65" stroke="#334155" stroke-width="2"/>
-    <text x="0" y="-30" fill="#94a3b8" font-size="20" font-weight="700" letter-spacing="1">FRAME 6: GOOGLE MATERIAL 1-5 STAR RATING MODAL (OVERLAY)</text>
+  <text x="100" y="1120" fill="#818cf8" font-size="32" font-weight="800" letter-spacing="1">📱 BREAKPOINT 2: TABLET (768 × 1024) — 8-COLUMN FLUID GRID</text>
 
-    <!-- Modal Card (560px Width) -->
-    <g transform="translate(440, 160)" filter="url(#cardShadow)">
-      <rect width="560" height="580" rx="10" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
-      <rect width="560" height="10" rx="0" fill="url(#googleBlueStrip)"/>
+  <!-- 2.1 Tablet Landing Hero -->
+  <g id="Tablet_1_Landing_Hero" transform="translate(100, 1160)">
+    <rect width="768" height="1024" rx="16" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <circle cx="150" cy="150" r="300" fill="url(#landingGlow1)"/>
+    <circle cx="650" cy="850" r="350" fill="url(#landingGlow1)"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">2.1 TABLET LANDING HERO (768 × 1024)</text>
 
-      <!-- Header -->
-      <text x="36" y="52" font-size="22" font-weight="700" fill="#202124">Rate Your AffetX Experience</text>
-      <text x="36" y="78" font-size="13.5" fill="#5f6368">How satisfied are you with the companion's emotional accuracy and empathy?</text>
-      <text x="520" y="52" font-size="24" fill="#5f6368" text-anchor="middle" cursor="pointer">✕</text>
+    <!-- Brand -->
+    <text x="50" y="90" font-family="'Times New Roman', Times, serif" font-size="48" font-weight="bold" fill="#091e42">AffetX</text>
 
-      <!-- Rating Box -->
-      <g transform="translate(36, 105)">
-        <rect width="488" height="160" rx="8" fill="#f8fafd" stroke="#d2e3fc" stroke-width="1"/>
-        <text x="244" y="35" font-size="14.5" font-weight="700" fill="#202124" text-anchor="middle">Overall Companion Satisfaction <tspan fill="#d93025">*</tspan></text>
-        <text x="244" y="65" font-size="14" font-weight="600" fill="#1a73e8" text-anchor="middle">5 Stars — Excellent Emotional Accuracy</text>
+    <!-- Main Title: 32px -->
+    <text x="50" y="300" font-family="'Times New Roman', Times, serif" font-size="32" font-weight="bold" fill="#0f172a">Designing an Emotionally Adaptive AI Companion</text>
+    <text x="50" y="375" font-family="'Times New Roman', Times, serif" font-size="30" font-weight="bold" fill="#0f172a">Using Voice Emotion Recognition</text>
+    <text x="50" y="425" font-family="'Times New Roman', Times, serif" font-size="30" font-weight="bold" fill="#0f172a">and Long-Term Emotional Memory</text>
 
-        <!-- 5 Stars -->
-        <text x="244" y="125" font-size="40" fill="#fbbf24" text-anchor="middle" letter-spacing="10">★ ★ ★ ★ ★</text>
+    <!-- Research Server: 38px -->
+    <text x="50" y="860" font-family="'Times New Roman', Times, serif" font-size="38" font-weight="bold" fill="#0f172a">Research Server</text>
+
+    <!-- Start Button -->
+    <g transform="translate(480, 805)" filter="url(#buttonShadow)" cursor="pointer">
+      <rect width="238" height="74" rx="8" fill="#4285f4"/>
+      <text x="119" y="49" font-family="'Times New Roman', Times, serif" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Start Survey</text>
+    </g>
+  </g>
+
+  <!-- 2.2 Tablet Google Form Modal -->
+  <g id="Tablet_2_Emotion_Form" transform="translate(930, 1160)">
+    <rect width="768" height="1024" rx="16" fill="#000000" fill-opacity="0.7" stroke="#334155" stroke-width="2"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">2.2 TABLET GOOGLE FORM SURVEY (OVERLAY)</text>
+
+    <g transform="translate(64, 120)" filter="url(#cardShadow)">
+      <rect width="640" height="780" rx="10" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
+      <rect width="640" height="10" fill="url(#googleBlueStrip)"/>
+      <text x="32" y="52" font-size="21" font-weight="700" fill="#202124">Please Select Your Current Emotion</text>
+      <text x="32" y="78" font-size="13" fill="#5f6368">Select the baseline emotional state that best matches how you feel.</text>
+      <text x="600" y="52" font-size="22" fill="#5f6368" text-anchor="middle">✕</text>
+
+      <g transform="translate(32, 105)">
+        <rect width="576" height="550" rx="8" fill="#f8fafd" stroke="#d2e3fc" stroke-width="1"/>
+        <text x="20" y="36" font-size="15" font-weight="700" fill="#202124">What is your current emotional baseline? <tspan fill="#d93025">*</tspan></text>
+
+        <!-- Radio rows -->
+        <g transform="translate(20, 58)"><rect width="536" height="58" rx="6" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.5"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#4285f4" stroke-width="2"/><circle cx="26" cy="29" r="4.5" fill="#4285f4"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Happy <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Joyful, optimistic, or cheerful</tspan></text></g>
+        <g transform="translate(20, 126)"><rect width="536" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Sad <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Low energy, down, or melancholic</tspan></text></g>
+        <g transform="translate(20, 194)"><rect width="536" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Angry <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Frustrated, irritated, or tense</tspan></text></g>
+        <g transform="translate(20, 262)"><rect width="536" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Fear <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Anxious, worried, or uneasy</tspan></text></g>
+        <g transform="translate(20, 330)"><rect width="536" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Neutral <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Calm, balanced, or steady</tspan></text></g>
+        <g transform="translate(20, 398)"><rect width="536" height="58" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="26" cy="29" r="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="46" y="34" font-size="14.5" font-weight="700" fill="#202124">Surprise <tspan font-size="12.5" font-weight="400" fill="#5f6368">• Curious, startled, or amazed</tspan></text></g>
       </g>
 
-      <!-- Feedback Textarea -->
-      <g transform="translate(36, 290)">
-        <text x="0" y="18" font-size="13" font-weight="600" fill="#3c4043">Additional Research Feedback (Optional)</text>
-        <rect y="28" width="488" height="90" rx="8" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
-        <text x="16" y="58" font-size="13.5" fill="#94a3b8">Share your experience, thoughts, or suggestions...</text>
+      <g transform="translate(32, 695)">
+        <text x="10" y="30" font-size="14" font-weight="600" fill="#5f6368">Cancel</text>
+        <g transform="translate(336, 0)"><rect width="240" height="46" rx="6" fill="#4285f4"/><text x="120" y="28" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Submit &amp; Launch Companion</text></g>
+      </g>
+    </g>
+  </g>
+
+  <!-- 2.3 Tablet Live Companion Stage -->
+  <g id="Tablet_3_Live_Stage" transform="translate(1760, 1160)">
+    <rect width="768" height="1024" rx="16" fill="url(#darkStageBg)" stroke="#334155" stroke-width="2"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">2.3 TABLET LIVE VOICE STAGE</text>
+
+    <!-- Top Bar -->
+    <g transform="translate(40, 40)">
+      <rect width="300" height="40" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
+      <circle cx="22" cy="20" r="5" fill="#38bdf8"/>
+      <text x="36" y="25" font-size="12.5" font-weight="600" fill="#93c5fd">Live Voice Session Active</text>
+      <g transform="translate(640, 0)"><circle cx="20" cy="20" r="20" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/><text x="20" y="26" font-size="15" fill="#ffffff" text-anchor="middle">✕</text></g>
+    </g>
+
+    <!-- Center Stage -->
+    <g transform="translate(384, 380)">
+      <text x="0" y="-70" font-family="'Brush Script MT', 'Dancing Script', cursive" font-size="58" font-style="italic" font-weight="bold" fill="url(#affetxCursive)" text-anchor="middle">AffetX</text>
+      <ellipse cx="0" cy="0" rx="160" ry="45" fill="url(#cyanAura)"/>
+      <g transform="translate(-145, -28)" filter="url(#pillShadow)">
+        <rect width="290" height="56" rx="28" fill="#0b1120" fill-opacity="0.95" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5"/>
+        <path d="M 10 28 Q 75 5 145 28 T 280 28" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 10 28 Q 75 45 145 28 T 280 28" fill="none" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+        <path d="M 10 28 Q 75 16 145 28 T 280 28" fill="none" stroke="#f43f5e" stroke-width="2.8" stroke-linecap="round"/>
+        <path d="M 10 28 Q 75 38 145 28 T 280 28" fill="none" stroke="#a855f7" stroke-width="2.8" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(-250, 75)">
+        <rect width="500" height="42" rx="10" fill="#0a0f1d" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+        <text x="250" y="26" font-size="12.5" fill="#f1f5f9" text-anchor="middle"><tspan fill="#94a3b8" font-weight="700">TRANSCRIBED VOICE: </tspan>"Speak into your mic to see speech live..."</text>
+      </g>
+      <text x="0" y="165" font-size="19" font-weight="500" fill="#f1f5f9" text-anchor="middle">Listening to your voice...</text>
+    </g>
+
+    <!-- Bottom Controls -->
+    <g transform="translate(284, 910)">
+      <circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/>
+      <path d="M 26 15 L 26 27 M 20 22 A 6 6 0 0 0 32 22 M 26 31 L 26 37 M 21 37 L 31 37" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <g transform="translate(75, 0)"><circle cx="28" cy="26" r="28" fill="#3b82f6"/><path d="M 18 26 L 38 16 L 30 36 L 26 28 Z" fill="#ffffff"/></g>
+      <g transform="translate(160, 0)"><circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/><text x="26" y="33" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">✕</text></g>
+    </g>
+  </g>
+
+
+  <!-- ========================================================================= -->
+  <!-- ROW 3: MOBILE BREAKPOINT (390 x 844) -->
+  <!-- ========================================================================= -->
+  <text x="100" y="2280" fill="#f43f5e" font-size="32" font-weight="800" letter-spacing="1">📱 BREAKPOINT 3: MOBILE (390 × 844) — 4-COLUMN TOUCH FLUID GRID</text>
+
+  <!-- 3.1 Mobile Landing Hero -->
+  <g id="Mobile_1_Landing_Hero" transform="translate(100, 2320)">
+    <rect width="390" height="844" rx="24" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <circle cx="80" cy="100" r="180" fill="url(#landingGlow1)"/>
+    <circle cx="320" cy="700" r="200" fill="url(#landingGlow1)"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">3.1 MOBILE LANDING HERO (390 × 844)</text>
+
+    <!-- Brand -->
+    <text x="24" y="65" font-family="'Times New Roman', Times, serif" font-size="36" font-weight="bold" fill="#091e42">AffetX</text>
+
+    <!-- Main Title: 24px -->
+    <text x="24" y="210" font-family="'Times New Roman', Times, serif" font-size="24" font-weight="bold" fill="#0f172a">Designing an Emotionally</text>
+    <text x="24" y="244" font-family="'Times New Roman', Times, serif" font-size="24" font-weight="bold" fill="#0f172a">Adaptive AI Companion</text>
+
+    <!-- Subtitle: 20px -->
+    <text x="24" y="320" font-family="'Times New Roman', Times, serif" font-size="20" font-weight="bold" fill="#0f172a">Using Voice Emotion</text>
+    <text x="24" y="350" font-family="'Times New Roman', Times, serif" font-size="20" font-weight="bold" fill="#0f172a">Recognition and</text>
+    <text x="24" y="380" font-family="'Times New Roman', Times, serif" font-size="20" font-weight="bold" fill="#0f172a">Long-Term Memory</text>
+
+    <!-- Research Server: 28px -->
+    <text x="24" y="670" font-family="'Times New Roman', Times, serif" font-size="28" font-weight="bold" fill="#0f172a">Research Server</text>
+
+    <!-- Start Button Full-Width Touch Target (48px+ touch height) -->
+    <g transform="translate(24, 715)" filter="url(#buttonShadow)" cursor="pointer">
+      <rect width="342" height="64" rx="8" fill="#4285f4"/>
+      <text x="171" y="42" font-family="'Times New Roman', Times, serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Start Survey</text>
+    </g>
+  </g>
+
+  <!-- 3.2 Mobile Google Form Modal -->
+  <g id="Mobile_2_Emotion_Form" transform="translate(560, 2320)">
+    <rect width="390" height="844" rx="24" fill="#000000" fill-opacity="0.7" stroke="#334155" stroke-width="2"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">3.2 MOBILE GOOGLE FORM SURVEY (OVERLAY)</text>
+
+    <g transform="translate(15, 40)" filter="url(#cardShadow)">
+      <rect width="360" height="760" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="1"/>
+      <rect width="360" height="8" fill="url(#googleBlueStrip)"/>
+      <text x="20" y="40" font-size="18" font-weight="700" fill="#202124">Select Current Emotion</text>
+      <text x="20" y="62" font-size="12" fill="#5f6368">Select your baseline emotional state:</text>
+      <text x="335" y="40" font-size="20" fill="#5f6368" text-anchor="middle">✕</text>
+
+      <g transform="translate(16, 85)">
+        <rect width="328" height="570" rx="8" fill="#f8fafd" stroke="#d2e3fc" stroke-width="1"/>
+        <text x="14" y="28" font-size="13.5" font-weight="700" fill="#202124">Emotional Baseline <tspan fill="#d93025">*</tspan></text>
+
+        <!-- Compact Radio Rows with minimum 48px touch targets -->
+        <g transform="translate(12, 45)"><rect width="304" height="48" rx="6" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.5"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#4285f4" stroke-width="2"/><circle cx="20" cy="24" r="4" fill="#4285f4"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Happy <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Joyful</tspan></text></g>
+        <g transform="translate(12, 102)"><rect width="304" height="48" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Sad <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Low energy</tspan></text></g>
+        <g transform="translate(12, 159)"><rect width="304" height="48" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Angry <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Frustrated</tspan></text></g>
+        <g transform="translate(12, 216)"><rect width="304" height="48" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Fear <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Anxious</tspan></text></g>
+        <g transform="translate(12, 273)"><rect width="304" height="48" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Neutral <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Calm, balanced</tspan></text></g>
+        <g transform="translate(12, 330)"><rect width="304" height="48" rx="6" fill="#ffffff" stroke="#e0e0e0"/><circle cx="20" cy="24" r="7" fill="#ffffff" stroke="#5f6368" stroke-width="1.5"/><text x="36" y="29" font-size="13.5" font-weight="700" fill="#202124">Surprise <tspan font-size="11.5" font-weight="400" fill="#5f6368">• Curious</tspan></text></g>
       </g>
 
-      <!-- Footer Buttons -->
-      <g transform="translate(36, 470)">
-        <g transform="translate(0, 0)">
-          <rect width="140" height="42" rx="4" fill="#ffffff" stroke="#dadce0"/>
-          <text x="70" y="26" font-size="14" font-weight="600" fill="#5f6368" text-anchor="middle">Back to Session</text>
-        </g>
-        <g transform="translate(348, 0)">
-          <rect width="140" height="42" rx="4" fill="#4285f4"/>
-          <text x="70" y="26" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Submit &amp; Finish</text>
-        </g>
+      <g transform="translate(16, 685)">
+        <g transform="translate(0, 0)"><rect width="328" height="48" rx="6" fill="#4285f4"/><text x="164" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Submit &amp; Launch Companion</text></g>
       </g>
+    </g>
+  </g>
+
+  <!-- 3.3 Mobile Live Companion Stage -->
+  <g id="Mobile_3_Live_Stage" transform="translate(1020, 2320)">
+    <rect width="390" height="844" rx="24" fill="url(#darkStageBg)" stroke="#334155" stroke-width="2"/>
+    <text x="0" y="-20" fill="#94a3b8" font-size="16" font-weight="700">3.3 MOBILE LIVE VOICE STAGE</text>
+
+    <!-- Top Bar -->
+    <g transform="translate(20, 36)">
+      <rect width="250" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
+      <circle cx="18" cy="18" r="4.5" fill="#38bdf8"/>
+      <text x="30" y="22" font-size="11.5" font-weight="600" fill="#93c5fd">Live Voice Session Active</text>
+      <g transform="translate(300, 0)"><circle cx="18" cy="18" r="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/><text x="18" y="23" font-size="14" fill="#ffffff" text-anchor="middle">✕</text></g>
+    </g>
+
+    <!-- Center Stage -->
+    <g transform="translate(195, 300)">
+      <text x="0" y="-60" font-family="'Brush Script MT', 'Dancing Script', cursive" font-size="48" font-style="italic" font-weight="bold" fill="url(#affetxCursive)" text-anchor="middle">AffetX</text>
+      <ellipse cx="0" cy="0" rx="130" ry="38" fill="url(#cyanAura)"/>
+      <g transform="translate(-130, -26)" filter="url(#pillShadow)">
+        <rect width="260" height="52" rx="26" fill="#0b1120" fill-opacity="0.95" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5"/>
+        <path d="M 10 26 Q 65 5 130 26 T 250 26" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+        <path d="M 10 26 Q 65 42 130 26 T 250 26" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M 10 26 Q 65 14 130 26 T 250 26" fill="none" stroke="#f43f5e" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M 10 26 Q 65 35 130 26 T 250 26" fill="none" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(-170, 70)">
+        <rect width="340" height="46" rx="8" fill="#0a0f1d" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+        <text x="170" y="28" font-size="11.5" fill="#f1f5f9" text-anchor="middle"><tspan fill="#94a3b8" font-weight="700">VOICE: </tspan>"Speak to transcribe speech..."</text>
+      </g>
+      <text x="0" y="160" font-size="17" font-weight="500" fill="#f1f5f9" text-anchor="middle">Listening to your voice...</text>
+    </g>
+
+    <!-- Bottom Controls -->
+    <g transform="translate(95, 730)">
+      <circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/>
+      <path d="M 26 15 L 26 27 M 20 22 A 6 6 0 0 0 32 22 M 26 31 L 26 37 M 21 37 L 31 37" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <g transform="translate(75, 0)"><circle cx="28" cy="26" r="28" fill="#3b82f6"/><path d="M 18 26 L 38 16 L 30 36 L 26 28 Z" fill="#ffffff"/></g>
+      <g transform="translate(160, 0)"><circle cx="26" cy="26" r="26" fill="#1e293b" stroke="#ffffff" stroke-opacity="0.15"/><text x="26" y="33" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">✕</text></g>
     </g>
   </g>
 </svg>

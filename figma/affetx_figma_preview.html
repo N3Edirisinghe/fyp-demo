@@ -3,85 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AffetX — Figma Design System & Artboards Exporter</title>
-    <link rel="stylesheet" href="../frontend/css/styles.css">
+    <title>AffetX — Responsive Figma Design System (Desktop, Tablet, Mobile)</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
-            background: #0f172a;
+            background: #090d16;
             color: #ffffff;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            padding: 40px;
-            margin: 0;
+            padding: 30px 20px;
         }
-        .figma-header {
-            max-width: 1440px;
-            margin: 0 auto 40px auto;
+        .header {
+            max-width: 1400px;
+            margin: 0 auto 30px auto;
             text-align: center;
         }
-        .figma-title {
-            font-size: 2.5rem;
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.12);
+            color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .title {
+            font-size: 2.4rem;
             font-weight: 800;
-            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            background: linear-gradient(135deg, #ffffff 0%, #93c5fd 50%, #38bdf8 100%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 8px;
         }
-        .figma-desc {
+        .subtitle {
             color: #94a3b8;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
+            max-width: 780px;
+            margin: 0 auto 24px auto;
+            line-height: 1.5;
         }
-        .artboard-container {
+        .device-selector {
             display: flex;
-            flex-direction: column;
-            gap: 60px;
-            max-width: 1440px;
-            margin: 0 auto;
+            justify-content: center;
+            gap: 14px;
+            margin-bottom: 30px;
         }
-        .artboard-card {
+        .device-btn {
             background: #1e293b;
             border: 1px solid #334155;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            color: #cbd5e1;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s ease;
         }
-        .artboard-bar {
-            background: #0f172a;
-            padding: 14px 24px;
-            border-bottom: 1px solid #334155;
+        .device-btn.active, .device-btn:hover {
+            background: #4285f4;
+            border-color: #4285f4;
+            color: #ffffff;
+            box-shadow: 0 4px 14px rgba(66, 133, 244, 0.4);
+        }
+        .grid-spec-card {
+            max-width: 1400px;
+            margin: 0 auto 40px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .spec-box {
+            background: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .spec-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .spec-item {
+            font-size: 13px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+        .spec-item strong {
+            color: #f1f5f9;
+        }
+        .master-artboards-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+        .master-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-weight: 700;
-            color: #38bdf8;
-            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #1f2937;
         }
-        .artboard-view {
+        .master-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #f1f5f9;
+        }
+        .file-pill {
+            background: rgba(56, 189, 248, 0.1);
+            color: #38bdf8;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: monospace;
+        }
+        .svg-viewer {
             width: 100%;
-            height: 900px;
-            border: none;
+            background: #030712;
+            border: 1px solid #1f2937;
+            border-radius: 8px;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        .svg-viewer img {
+            width: 100%;
+            min-width: 1000px;
             display: block;
-            background: #ffffff;
         }
     </style>
 </head>
 <body>
 
-    <div class="figma-header">
-        <div class="figma-title">AffetX Figma Design Suite</div>
-        <p class="figma-desc">All 6 UI screens generated with 100% precision. Drag <code>affetx_figma_artboards.svg</code> into Figma to open them directly!</p>
+    <div class="header">
+        <div class="badge">🎨 Industrial Figma Design System</div>
+        <h1 class="title">AffetX Responsive Multi-Breakpoint Suite</h1>
+        <p class="subtitle">Complete, production-grade Responsive UI System designed across Desktop (1440×900), Tablet (768×1024), and Mobile (390×844) viewport grids.</p>
+
+        <div class="device-selector">
+            <button class="device-btn active">🖥️ Desktop (1440 × 900)</button>
+            <button class="device-btn">📱 Tablet (768 × 1024)</button>
+            <button class="device-btn">📱 Mobile (390 × 844)</button>
+        </div>
     </div>
 
-    <div class="artboard-container">
-        <!-- SVG Vector Master -->
-        <div class="artboard-card">
-            <div class="artboard-bar">
-                <span>VECTOR MASTER ARTBOARDS (DIRECT FIGMA IMPORT FILE)</span>
-                <span style="color: #94a3b8; font-size: 13px;">affetx_figma_artboards.svg</span>
+    <!-- 3 Breakpoints Technical Grid Specs -->
+    <div class="grid-spec-card">
+        <div class="spec-box">
+            <div class="spec-title">🖥️ Desktop (1440 × 900)</div>
+            <div class="spec-item">
+                • <strong>Layout Grid</strong>: 12 Columns, Gutter: 24px, Margin: 80px<br>
+                • <strong>Typography</strong>: Logo 60px / Titles 40px / Button 40px<br>
+                • <strong>Wave Pill</strong>: 310px × 60px (Radius: 32px)<br>
+                • <strong>Modals</strong>: Max-width 680px Google Center Overlay
             </div>
-            <div style="padding: 20px; overflow-x: auto; background: #0b1120;">
-                <img src="affetx_figma_artboards.svg" alt="Figma Vector Master Artboards" style="width: 100%; max-width: 1400px; border-radius: 8px; border: 1px solid #334155;">
+        </div>
+
+        <div class="spec-box">
+            <div class="spec-title" style="color: #818cf8;">📱 Tablet (768 × 1024)</div>
+            <div class="spec-item">
+                • <strong>Layout Grid</strong>: 8 Columns, Gutter: 20px, Margin: 48px<br>
+                • <strong>Typography</strong>: Logo 48px / Titles 32px / Button 30px<br>
+                • <strong>Wave Pill</strong>: 290px × 56px (Radius: 28px)<br>
+                • <strong>Modals</strong>: Max-width 640px Adaptive Overlay
             </div>
+        </div>
+
+        <div class="spec-box">
+            <div class="spec-title" style="color: #f43f5e;">📱 Mobile (390 × 844)</div>
+            <div class="spec-item">
+                • <strong>Layout Grid</strong>: 4 Columns, Gutter: 16px, Margin: 20px<br>
+                • <strong>Typography</strong>: Logo 36px / Titles 24px / Button 26px<br>
+                • <strong>Wave Pill</strong>: 260px × 52px (Radius: 26px)<br>
+                • <strong>Touch Targets</strong>: Minimum 48px tactile buttons<br>
+                • <strong>Modals</strong>: 360px Compact Full-Width Sheet
+            </div>
+        </div>
+    </div>
+
+    <!-- Master Artboards Preview -->
+    <div class="master-artboards-container">
+        <div class="master-header">
+            <span class="master-title">RESPONSIVE VECTOR ARTBOARDS (DIRECT FIGMA IMPORT)</span>
+            <span class="file-pill">figma/affetx_figma_artboards.svg</span>
+        </div>
+        <div class="svg-viewer">
+            <img src="affetx_figma_artboards.svg" alt="Responsive Master Figma Artboards">
         </div>
     </div>
 
